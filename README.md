@@ -43,16 +43,17 @@ L’interface sera comme ci-dessous :
 Nous allons devoir implémenter différentes fonctionnalités :
     <ul>
         <li>Afficher le plan</li>
-        <li>Affciher le menu</ll>
             <ul>
-                <li>Afficher les menus déroulants</li>
-                    <ul>
-                        <li>Des étages</li>
-                        <li>Des disciplines</li>
-                        <li>Des sous-disciplines</li>
-                        <li>Des racines de cotes</li>
-                    </ul>
-                <li>l'index</li>
+                <li>des étages</li>
+                <li>des étagères par étage</li>
             </ul>
+        <li>Afficher les menus déroulants du menu</ll>
+            <ul>
+                 <li>Des étages</li>
+                 <li>Des disciplines</li>
+                 <li>Des sous-disciplines</li>
+                 <li>Des racines de cotes</li>
+            </ul>
+        <li>l'index</li>
     </ul>
 </p>
