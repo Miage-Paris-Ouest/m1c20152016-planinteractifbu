@@ -1,4 +1,4 @@
-# UseCaseBU
+# Projet: Plan Interactif BU
 <h1>Conception projet</h1>
 
 <h2>Sujet : Plan interactif BU </h2>
