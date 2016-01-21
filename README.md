@@ -81,5 +81,5 @@ Nous allons devoir implémenter différentes fonctionnalités :
 </p>
 <p>
     Voici la video du prototype :
-        <a href="https://github.com/Mohamed-MIAGE/UseCaseBU/blob/master/Documents/Prototype/IMG_2242.mp4?raw=true> Lien de telechargement </a>
+        <a href="https://github.com/Mohamed-MIAGE/UseCaseBU/blob/master/Documents/Prototype/IMG_2242.mp4?raw=true"> Lien de telechargement </a>
 <p/>
