@@ -71,5 +71,11 @@ Nous allons devoir implémenter différentes fonctionnalités :
                  <li>Des racines de cotes</li>
             </ul>
         <li>Un bouton vers l'index</li>
+        <li>Au clic sur une discipline, une racine de côte ou sur une côte dans l'index:</li>
+         <ul>
+          <li>Les étages contenant au moins une étagère répondant au(x) critère(s) de recherche s'afficheront en surbrillance
+              dans le menu déroulant des étages</li>
+          <li>Les étagères contenant la discipline/racine de côte/côte s'affichent en surbrillance sur le plan</li>
+         </ul>
     </ul>
 </p>
