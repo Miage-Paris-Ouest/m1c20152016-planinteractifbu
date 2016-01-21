@@ -47,13 +47,13 @@ Nous allons devoir implémenter différentes fonctionnalités :
                 <li>des étages</li>
                 <li>des étagères par étage</li>
             </ul>
-        <li>Afficher les menus déroulants du menu</ll>
+        <li>Afficher les listes déroulants du menu</ll>
             <ul>
                  <li>Des étages</li>
                  <li>Des disciplines</li>
                  <li>Des sous-disciplines</li>
                  <li>Des racines de cotes</li>
             </ul>
-        <li>l'index</li>
+        <li>Un bouton vers l'index</li>
     </ul>
 </p>
