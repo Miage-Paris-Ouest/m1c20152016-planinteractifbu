@@ -38,3 +38,21 @@ L’interface sera comme ci-dessous :
 
 <img src="https://raw.githubusercontent.com/Mohamed-MIAGE/UseCaseBU/master/Documents/img/vue_appli_recherche.png" />
 </p>
+<p>
+<h3>Les fonctionnalités à implémenter</h3>
+Nous allons devoir implémenter différentes fonctionnalités :
+    <ul>
+        <li>Afficher le plan</li>
+        <li>Affciher le menu</ll>
+            <ul>
+                <li>Afficher les menus déroulants</li>
+                    <ul>
+                        <li>Des étages</li>
+                        <li>Des disciplines</li>
+                        <li>Des sous-disciplines</li>
+                        <li>Des racines de cotes</li>
+                    </ul>
+                <li>l'index</li>
+            </ul>
+    </ul>
+</p>
