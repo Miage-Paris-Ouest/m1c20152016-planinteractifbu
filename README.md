@@ -21,20 +21,7 @@ de chercher un ordinateur dans la bibliothèque, regarder et retenir le plan, d�
 concevoir ce projet sur mobile.
 </p>
 <p>
-Ainsi, nous allons devoir concevoir et réaliser ce projet sur Android Studio et donc en langage Java.
-Nous utiliserons également :
-  <ul>
-    <li>	GitHub pour la mise en commun de notre travail ;</li>
-    <li>	Gradle pour l’organisation de notre code et l’automatisation des différentes phases
-        de build du projet ;
-    </li>
-    <li>	Travis  et CoverAlls pour tester l’ensemble de l’application en temps réel.</li>
-  </ul>
-</p>
-<p>
-Afin de réaliser au mieux ce projet, il est important d’avoir certaines compétences, telles que la
- connaissance du langage Java et de l’environnement de développement Android Studio. Nous allons
- également devoir nous familiariser avec GitHub.
+Ainsi, nous allons réaliser ce projet en Android.
 </p>
 <p>
 A la fin de notre projet, nous devrons avoir produit une version de notre application facile à
