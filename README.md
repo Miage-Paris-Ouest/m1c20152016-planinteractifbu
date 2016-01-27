@@ -12,15 +12,6 @@ groupe projet au sein du Service Commun de la Documentation », cependant pour c
 <p>
 Le cahier des charges de ce projet a pour contraintes le fait de concevoir ce plan pour une
 application web et/ou mobile. Nous avons choisi de le réaliser pour une application mobile.
-En effet, après réflexion, il nous a semblé logique que
-lorsque nous cherchons notre chemin ou quelque chose, nous avons plutôt tendance à le chercher sur
-notre téléphone. Par exemple, nous sommes à la bibliothèque et nous voulons aller dans une certaine
-section, il est plus pratique de sortir
-notre téléphone et de chercher la dite section et de suivre le plan avec notre téléphone, plutôt que
-de chercher un ordinateur dans la bibliothèque, regarder et retenir le plan, d’où notre décision de
-concevoir ce projet sur mobile.
-</p>
-<p>
 Ainsi, nous allons réaliser ce projet en Android.
 </p>
 <p>
