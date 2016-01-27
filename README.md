@@ -49,13 +49,6 @@ Nous avons décidé de simplifier l’interface graphique de l’application au 
 performante (rapidité de chargement du plan et des résultats des recherches) et facile d’utilisation.
 </p>
 <p>
-L’interface sera comme ci-dessous :
-<br/>
-<img src="https://raw.githubusercontent.com/Mohamed-MIAGE/UseCaseBU/master/Documents/img/vue_appli_base.png" />
-
-<img src="https://raw.githubusercontent.com/Mohamed-MIAGE/UseCaseBU/master/Documents/img/vue_appli_recherche.png" />
-</p>
-<p>
 <h3>Les fonctionnalités à implémenter</h3>
 Nous allons devoir implémenter différentes fonctionnalités :
     <ul>
@@ -79,7 +72,3 @@ Nous allons devoir implémenter différentes fonctionnalités :
          </ul>
     </ul>
 </p>
-<p>
-    Voici la video du prototype :
-        <a href="https://github.com/Mohamed-MIAGE/UseCaseBU/blob/master/Documents/Prototype/IMG_2242.mp4?raw=true"> Lien de telechargement</a>
-<p/>
