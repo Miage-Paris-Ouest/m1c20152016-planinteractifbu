@@ -6,7 +6,7 @@ notifications:
       - momo-du_78@hotmail.fr
       - camleuregans@gmail.com
       - cle.burg@hotmail.fr
-    on_success: [always|never|change] # default: never
+    on_success: [always|never|change] # default: always
     on_failure: [always|never|change] # default: always
 
 # JDK
