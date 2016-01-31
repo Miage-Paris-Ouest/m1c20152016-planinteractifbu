@@ -54,4 +54,3 @@ before_install:
  
 script:
   - ./gradlew clean build
-  - ./gradlew check jacocoTestReport coveralls
