@@ -47,6 +47,13 @@ android:
     - sys-img-armeabi-v7a-android-18
     - sys-img-x86-android-17
 
+# Gradlew
+before_install:
+ - chmod +x PlanInteractifBU/gradlew
+ 
+script:
+  - PlanInteractifBU/gradlew clean build
+
 # Gradle    
 before_cache:
   - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
@@ -54,9 +61,4 @@ cache:
   directories:
     - $HOME/.gradle/2.8/taskArtifacts/
 
-# Gradlew
-before_install:
- - chmod +x PlanInteractifBU/gradlew
- 
-script:
-  - PlanInteractifBU/gradlew clean build
+
