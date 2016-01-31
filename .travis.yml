@@ -52,6 +52,3 @@ before_cache:
 cache:
   directories:
     - $HOME/.gradle/2.8/taskArtifacts/
-
-script:
-  - ./gradlew check jacocoTestReport coveralls
