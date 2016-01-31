@@ -1,4 +1,4 @@
-package grp3.projet.miage.paris10.fr.planinteractifbu;
+package grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
