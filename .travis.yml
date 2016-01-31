@@ -6,14 +6,13 @@ notifications:
       - momo-du_78@hotmail.fr
       - camleuregans@gmail.com
       - cle.burg@hotmail.fr
-    on_success: change
-    on_failure: change
+    on_success: never
+    on_failure: never
 
 # JDK
 jdk:
   - oraclejdk8
   - oraclejdk7
-  - openjdk6
 
 # Script pour utiliser un des JDK
 script:
@@ -58,6 +57,8 @@ before_install:
  - chmod +x gradlew
  
 script:
-  - $HOME/gradlew clean build
+  - ./gradlew clean build
 
 # Coveralls
+script:
+  - ./gradlew check jacocoTestReport coveralls
