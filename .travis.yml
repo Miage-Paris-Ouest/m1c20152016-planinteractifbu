@@ -54,11 +54,11 @@ cache:
 
 # Gradlew
 before_install:
- - chmod +x $HOME/gradlew
+ - chmod +x PlanInteractifBU/gradlew
  
 script:
-  - $HOME/./gradlew clean build
+  - PlanInteractifBU/./gradlew clean build
 
 # Coveralls
 script:
-  - $HOME/./gradlew check jacocoTestReport coveralls
+  - PlanInteractifBU/./gradlew check jacocoTestReport coveralls
