@@ -8,8 +8,8 @@ notifications:
       - momo-du_78@hotmail.fr
       - camleuregans@gmail.com
       - cle.burg@hotmail.fr
-    on_success: change
-    on_failure: always
+    on_success: never
+    on_failure: never
 
 # JDK
 jdk:
@@ -54,3 +54,4 @@ before_install:
  
 script:
   - ./gradlew clean build
+  - ./gradlew check jacocoTestReport coveralls
