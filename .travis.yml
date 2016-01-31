@@ -47,10 +47,15 @@ android:
     - sys-img-armeabi-v7a-android-18
     - sys-img-x86-android-17
 
+    # Repositories for Gradle and Maven
+    - extra-android-m2repository
+    - extra-google-m2repository
+    - sys-img-${ANDROID_ABI}-${ANDROID_TARGET}
+
 
 # Gradlew
 before_install:
  - chmod +x ./gradlew
  
 script:
-  - ./gradlew check jacocoTestReport coveralls
+  - ./gradlew clean build
