@@ -6,8 +6,8 @@ notifications:
       - momo-du_78@hotmail.fr
       - camleuregans@gmail.com
       - cle.burg@hotmail.fr
-    on_success: always
-    on_failure: always
+    on_success: change
+    on_failure: change
 
 # JDK
 jdk:
@@ -52,3 +52,12 @@ before_cache:
 cache:
   directories:
     - $HOME/.gradle/2.8/taskArtifacts/
+
+# Gradlew
+before_install:
+ - chmod +x gradlew
+ 
+script:
+  - $HOME/gradlew clean build
+
+# Coveralls
