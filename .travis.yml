@@ -47,16 +47,10 @@ android:
     - sys-img-armeabi-v7a-android-18
     - sys-img-x86-android-17
 
-# Gradle    
-before_cache:
-  - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
-cache:
-  directories:
-    - $HOME/.gradle/2.8/taskArtifacts/
 
 # Gradlew
 before_install:
  - chmod +x ./gradlew
  
 script:
-  - ./gradlew clean build
+  - ./gradlew build connectedCheck
