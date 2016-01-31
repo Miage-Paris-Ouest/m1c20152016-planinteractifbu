@@ -31,7 +31,7 @@ android:
     # - tools
 
     # The BuildTools version used by your project
-    - build-tools-18.1.1
+    - build-tools-23.0.2
 
     # The SDK version used to compile your project
     - android-18
@@ -49,6 +49,8 @@ android:
 
 
 # Gradlew
+before_install:
+ - chmod +x ./gradlew
  
 script:
   - ./gradlew clean build
