@@ -59,4 +59,4 @@ before_install:
  - chmod +x PlanInteractifBU/gradlew
  
 script:
-  - PlanInteractifBU/./gradlew clean build
+  - PlanInteractifBU/gradlew clean build
