@@ -60,7 +60,3 @@ before_install:
  
 script:
   - PlanInteractifBU/./gradlew clean build
-
-# Coveralls
-script:
-  - PlanInteractifBU/./gradlew check jacocoTestReport coveralls
