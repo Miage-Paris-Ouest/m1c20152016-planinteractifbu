@@ -1,4 +1,6 @@
-[![Build Status](https://travis-ci.com/Miage-Paris-Ouest/m1c20152016-planinteractifbu.svg?token=cHKtHcLzrwGpbzts7QpW&branch=master)](https://travis-ci.com/Miage-Paris-Ouest/m1c20152016-planinteractifbu)
+[![Build Status](https://travis-ci.org/Miage-Paris-Ouest/m1c20152016-planinteractifbu.svg?branch=master)](https://travis-ci.org/Miage-Paris-Ouest/m1c20152016-planinteractifbu)
+
+[![Coverage Status](https://coveralls.io/repos/github/Miage-Paris-Ouest/m1c20152016-planinteractifbu/badge.svg?branch=master)](https://coveralls.io/github/Miage-Paris-Ouest/m1c20152016-planinteractifbu?branch=master)
 
 <p>
 Ainsi, nous allons devoir concevoir et réaliser ce projet sur Android Studio.
