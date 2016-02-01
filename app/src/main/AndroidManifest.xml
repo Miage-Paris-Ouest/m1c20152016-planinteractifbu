@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
+    package="grp3.projet.miage.paris10.fr.planinteractigbu" >
+=======
     package="grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu">
+>>>>>>> master
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+<<<<<<< HEAD
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+=======
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
+>>>>>>> master
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
