@@ -2,9 +2,7 @@
 
 [![Build Status](https://travis-ci.org/Miage-Paris-Ouest/m1c20152016-planinteractifbu.svg?branch=master)](https://travis-ci.org/Miage-Paris-Ouest/m1c20152016-planinteractifbu)
 
-<a href='https://coveralls.io/github/Miage-Paris-Ouest/m1c20152016-planinteractifbu?branch=master'><img src='https://coveralls.io/repos/github/Miage-Paris-Ouest/m1c20152016-planinteractifbu/badge.svg?branch=master' alt='Coverage Status' /></a>
-
-
+[![Coverage Status](https://coveralls.io/repos/github/Miage-Paris-Ouest/m1c20152016-planinteractifbu/badge.svg?branch=master)](https://coveralls.io/github/Miage-Paris-Ouest/m1c20152016-planinteractifbu?branch=master)
 
 <h1>Conception projet</h1>
 
