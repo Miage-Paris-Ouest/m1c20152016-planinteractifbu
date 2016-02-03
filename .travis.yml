@@ -8,8 +8,8 @@ notifications:
       - momo-du_78@hotmail.fr
       - camleuregans@gmail.com
       - cle.burg@hotmail.fr
-    on_success: never
-    on_failure: never
+    on_success: change
+    on_failure: change
 
 # JDK
 jdk:
