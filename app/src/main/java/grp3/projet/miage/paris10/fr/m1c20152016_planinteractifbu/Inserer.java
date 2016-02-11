@@ -1,28 +1,13 @@
 package grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu;
 
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
-import java.math.BigDecimal;
 
-import javax.swing.JTable;
-import javax.swing.RowSorter;
-import javax.swing.table.TableModel;
-import javax.swing.table.TableRowSorter;
-
-import org.apache.poi.hssf.usermodel.HSSFCell;
-import org.apache.poi.hssf.usermodel.HSSFRow;
-import org.apache.poi.hssf.usermodel.HSSFSheet;
-import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-import org.apache.poi.poifs.filesystem.POIFSFileSystem;
 
 /**
  * Created by Mohamed on 11/02/2016.
  */
 public class Inserer {
-    static ModelClient modelclients;
+   /* static ModelClient modelclients;
 
     public Inserer(){
 
@@ -90,13 +75,13 @@ public class Inserer {
         return table;
 
 
-    }
+    }*/
 
 
     /**
      * La cellule peut contenir différent type de valeur qui doivent être récupéré spécifiquement
      */
-    private static Object ContenuCellule(HSSFCell cell){
+   /* private static Object ContenuCellule(HSSFCell cell){
         Object value = null ;
 
         if(cell == null){
@@ -120,7 +105,7 @@ public class Inserer {
         }
         return value;
 
-    }
+    }*/
 
     /**
      * Permet de récupérer le nombre maximun de colonne .
@@ -128,7 +113,7 @@ public class Inserer {
      * Donc pour pouvoir récupérer le nombre de colonne pour initialiser notre tableau on doit parcourir toutes les lignes
      *
      */
-    private static int NombreMaxColonne(HSSFSheet sheet){
+   /* private static int NombreMaxColonne(HSSFSheet sheet){
 
         int r = sheet.getLastRowNum();
         int max = 0;
@@ -144,5 +129,5 @@ public class Inserer {
 
         }
         return max+1;
-    }
+    }*/
 }

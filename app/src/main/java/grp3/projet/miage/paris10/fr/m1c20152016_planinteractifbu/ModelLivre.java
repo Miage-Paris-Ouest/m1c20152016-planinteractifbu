@@ -1,14 +1,14 @@
 package grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu;
-
+/*
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.swing.table.*;
+import javax.swing.table.*;*/
 /**
  * Created by Mohamed on 11/02/2016.
  */
 public class ModelLivre {
-    private static final long serialVersionUID = 1535068875377801051L;
+    /*private static final long serialVersionUID = 1535068875377801051L;
 
     protected final List<Livre> Livres = new ArrayList<Livre>();
 
@@ -70,5 +70,5 @@ public class ModelLivre {
         Livres.remove(rowIndex);
 
         //fireTableRowsDeleted(rowIndex, rowIndex);
-    }
+    }*/
 }
