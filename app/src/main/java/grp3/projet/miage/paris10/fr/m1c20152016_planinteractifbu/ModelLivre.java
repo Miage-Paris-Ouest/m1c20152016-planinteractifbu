@@ -1,33 +1,31 @@
 package grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu;
 
-import android.graphics.Color;
-
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.swing.table.AbstractTableModel;
+import javax.swing.table.*;
 /**
  * Created by Mohamed on 11/02/2016.
  */
-public class ModelLivre extends AbstractTableModel {
+public class ModelLivre {
     private static final long serialVersionUID = 1535068875377801051L;
 
-    protected final List<Client> Clients = new ArrayList<Client>();
+    protected final List<Livre> Livres = new ArrayList<Livre>();
 
-    public List<Client> getClients()
+    public List<Livre> getLivres()
     {
-        return Clients;
+        return Livres;
     }
 
-    private final String[] entete = {"Nom d'utilisateur", "Numéro de référence de facture",  "Numéro de téléphone", "Débit Autorisé", "Débit consommé","Alerte "};
+    private final String[] entete = {"Salle", "Etagere",  "Discipline", "Sous-Discipline", "Cote"};
 
 
-    public ModelClient() {
+    public ModelLivre() {
         super();
     }
 
     public int getRowCount() {
-        return Clients.size();
+        return Livres.size();
     }
 
     public int getColumnCount() {
@@ -41,17 +39,15 @@ public class ModelLivre extends AbstractTableModel {
     public Object getValueAt(int rowIndex, int columnIndex) {
         switch(columnIndex){
             case 0:
-                return Clients.get(rowIndex).getNomUtil();
+                return Livres.get(rowIndex).getSalle();
             case 1:
-                return Clients.get(rowIndex).getNumRef();
+                return Livres.get(rowIndex).getEtagere();
             case 2:
-                return Clients.get(rowIndex).getNumTel();
+                return Livres.get(rowIndex).getDiscipline();
             case 3:
-                return Clients.get(rowIndex).getDebitAuto();
+                return Livres.get(rowIndex).getSousDiscipline();
             case 4:
-                return Clients.get(rowIndex).getDebitConso();
-            case 5:
-                return Clients.get(rowIndex).getAlerte();
+                return Livres.get(rowIndex).getCote();
             default:
                 return null; //Ne devrait jamais arriver
         }
@@ -59,23 +55,20 @@ public class ModelLivre extends AbstractTableModel {
     @Override
     public Class getColumnClass(int columnIndex){
         switch(columnIndex){
-            case 5:
-                return Color.class;
-
             default:
                 return Object.class;
         }}
 
 
-    public void addClient(Client client) {
-        Clients.add(client);
+    public void addClient(Livre livre) {
+        Livres.add(livre);
 
-        fireTableRowsInserted(Clients.size() -1, Clients.size() -1);
+        //fireTableRowsInserted(Livres.size() -1, Livres.size() -1);
     }
 
-    public void removeClient(int rowIndex) {
-        Clients.remove(rowIndex);
+    public void removeLivre(int rowIndex) {
+        Livres.remove(rowIndex);
 
-        fireTableRowsDeleted(rowIndex, rowIndex);
+        //fireTableRowsDeleted(rowIndex, rowIndex);
     }
 }
