@@ -12,6 +12,7 @@ import android.view.MenuItem;
 
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.R;
 
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
