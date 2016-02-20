@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/books"
+        android:label="Plan interactif"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="m1c20152016_planinteractifbu.fr.paris10.miage.projet.grp3.planbu.MainActivity"
+            android:label="Plan interactif"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

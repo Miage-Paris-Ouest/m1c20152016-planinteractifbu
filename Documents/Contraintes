@@ -1,0 +1,25 @@
+Le format des fichiers attendu est :
+  - un format de type CSV
+  - ce fichier sera constitué de 5 données (colonnes sous Excel) :
+    * Salle :
+      Cette colonne devra contenir le nom de la salle concernée. Il ne peut pas en avoir plusieurs.
+      Cependant si c'est une salle avec deux disciplines, les noms des disciplines seront séparés par "-".
+      Concernant les noms composés, ils ne devront pas utiliser "-"
+    * Etagère :
+      Cette colonne contiendra le numéro de l'étage concerné, ce sera donc un numéro (entier).
+      De plus, si plusieurs étagères sont concernées, on les sépare par ","
+    * Secteur/discipline :
+      Cette colonne ne contient le nom que d'un seul secteur (ou discipline), un nom pourra être composé et séparé d'un "-" par exemple
+      "Beaux-Arts", ou alors juste d'un espace, comme "Latin Grec"
+    * Sous/discipline :
+      
+    * Cote :
+      On aura dans cette colonne la liste des cotes à prendre avec des fois, certaines à exclure.
+      Elles sont sous la forme d'un nombre ou d'une chaine de caractères (constituée de chiffre(s) et lettre(s)) et peuvent avoir une
+      sous-partie avec un "." comme séparateur, exemple : 869.0
+      On pourra avoir :
+        . une cote seule
+        . plusieurs cotes, séparées par des ","
+        . une liste avec la première cote jusque la dernière comme ceci : "numDebut à numFin"
+        . une cote ou une liste de cotes avec des cotes exclues en utilisant "sauf".
+          Pour le sauf, on peut mettre plusieurs cotes avec "," ou une liste de cotes exclues avec le "sauf" ou juste une cote

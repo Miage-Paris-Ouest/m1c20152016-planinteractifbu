@@ -1,0 +1,56 @@
+language: android
+
+sudo: false
+
+notifications:
+  email:
+    recipients:
+      - momo-du_78@hotmail.fr
+      - camleuregans@gmail.com
+      - cle.burg@hotmail.fr
+    on_success: change
+    on_failure: change
+
+# JDK
+jdk:
+  - oraclejdk8
+  - oraclejdk7
+
+# Script pour utiliser un des JDK
+script:
+- jdk_switcher use oraclejdk8
+- # do stuff with Java 8
+- jdk_switcher use oraclejdk7
+- # do stuff with Java 7
+
+env:
+  global:
+    - ANDROID_TARGET=android-23
+    - ANDROID_ABI=armeabi-v7a
+
+android:
+  components:
+    # Uncomment the lines below if you want to
+    # use the latest revision of Android SDK Tools
+    - platform-tools
+    - tools
+
+    # The BuildTools version used by your project
+    - build-tools-23.0.2
+
+    # The SDK version used to compile your project
+    - android-23
+
+    # Additional components
+    - extra-google-google_play_services
+    - extra-google-m2repository
+    - extra-android-m2repository
+    - addon-google_apis-google-23
+
+
+# Gradlew
+before_install:
+ - chmod +x ./gradlew
+ 
+script:
+  - ./gradlew clean build
