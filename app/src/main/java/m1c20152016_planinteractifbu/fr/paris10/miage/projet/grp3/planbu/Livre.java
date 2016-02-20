@@ -1,4 +1,4 @@
-package grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu;
+package m1c20152016_planinteractifbu.fr.paris10.miage.projet.grp3.planbu;
 
 /**
  * Created by Mohamed on 11/02/2016.

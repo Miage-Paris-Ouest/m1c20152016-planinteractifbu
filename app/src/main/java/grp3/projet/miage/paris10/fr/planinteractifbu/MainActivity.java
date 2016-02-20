@@ -1,8 +1,11 @@
-package m1c20152016_planinteractifbu.fr.paris10.miage.projet.grp3.planbu;
+package grp3.projet.miage.paris10.fr.planinteractifbu;
 
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
