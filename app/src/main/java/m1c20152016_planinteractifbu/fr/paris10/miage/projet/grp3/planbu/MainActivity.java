@@ -14,11 +14,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.R;
-<<<<<<< HEAD
-=======
 import m1c20152016_planinteractifbu.fr.paris10.miage.projet.grp3.planbu.leplan.Plan;
->>>>>>> refs/remotes/origin/master
 
 
 public class MainActivity extends AppCompatActivity
