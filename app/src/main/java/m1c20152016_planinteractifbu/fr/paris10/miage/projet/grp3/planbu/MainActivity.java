@@ -1,9 +1,5 @@
 package m1c20152016_planinteractifbu.fr.paris10.miage.projet.grp3.planbu;
 
-<<<<<<< HEAD
-=======
-import android.content.Intent;
->>>>>>> refs/remotes/origin/master
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -14,7 +10,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import m1c20152016_planinteractifbu.fr.paris10.miage.projet.grp3.planbu.leplan.Plan;
+import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.R;
 
 
 public class MainActivity extends AppCompatActivity
@@ -76,7 +72,6 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-<<<<<<< HEAD
         if (id == R.id.nav_camera) {
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
@@ -88,14 +83,6 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
-=======
-       if (id == R.id.nav_plan) {
-           Intent it_plan = new Intent(MainActivity.this, Plan.class);
-           startActivity(it_plan);
-        } else if (id == R.id.nav_cote) {
-
-        } else if (id == R.id.nav_dis) {
->>>>>>> refs/remotes/origin/master
 
         }
 
