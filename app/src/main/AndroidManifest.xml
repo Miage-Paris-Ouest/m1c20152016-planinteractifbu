@@ -18,11 +18,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="m1c20152016_planinteractifbu.fr.paris10.miage.projet.grp3.planbu.leplan.Plan"
-            android:label="@string/titre_layout_plan"
-            android:theme="@style/AppTheme">
-        </activity>
     </application>
 
 </manifest>
