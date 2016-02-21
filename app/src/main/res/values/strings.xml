@@ -4,4 +4,8 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+<<<<<<< HEAD
+=======
+    <string name="titre_layout_plan">layout_plan</string>
+>>>>>>> refs/remotes/origin/master
 </resources>

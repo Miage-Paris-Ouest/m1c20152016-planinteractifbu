@@ -3,6 +3,7 @@
 
     <group android:checkableBehavior="single">
         <item
+<<<<<<< HEAD
             android:id="@+id/nav_camera"
             android:icon="@drawable/ic_menu_camera"
             android:title="Import" />
@@ -30,6 +31,23 @@
                 android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_send"
                 android:title="Send" />
+=======
+            android:id="@+id/nav_plan"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Plan" />
+    </group>
+
+    <item android:title="Recherche">
+        <menu>
+            <item
+                android:id="@+id/nav_cote"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Par cote" />
+            <item
+                android:id="@+id/nav_dis"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Par discipline" />
+>>>>>>> refs/remotes/origin/master
         </menu>
     </item>
 

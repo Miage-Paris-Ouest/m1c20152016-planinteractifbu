@@ -4,6 +4,10 @@
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
+<<<<<<< HEAD
         android:title="@string/action_settings"
+=======
+        android:title="Ajout fichier CSV"
+>>>>>>> refs/remotes/origin/master
         app:showAsAction="never" />
 </menu>
