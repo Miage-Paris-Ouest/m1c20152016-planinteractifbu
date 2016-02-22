@@ -1,5 +1,7 @@
 package grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu;
 
+import android.support.v7.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;

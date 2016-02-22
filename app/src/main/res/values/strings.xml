@@ -4,5 +4,8 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+<<<<<<< HEAD
+=======
     <string name="titre_layout_plan">layout_plan</string>
+>>>>>>> c1482d9b8e2deaa2ce3aa2535356b2f5fb84898b
 </resources>
