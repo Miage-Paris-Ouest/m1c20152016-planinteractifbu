@@ -1,4 +1,4 @@
-package m1c20152016_planinteractifbu.fr.paris10.miage.projet.grp3.planbu.leplan;
+package grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.leplan;
 
 import android.app.Activity;
 import android.os.Bundle;
