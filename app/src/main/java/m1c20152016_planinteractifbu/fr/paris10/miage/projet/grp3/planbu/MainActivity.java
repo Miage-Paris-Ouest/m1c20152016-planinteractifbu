@@ -13,7 +13,7 @@ import android.view.MenuItem;
 
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.R;
 import m1c20152016_planinteractifbu.fr.paris10.miage.projet.grp3.planbu.leplan.Plan;
-
+//essai
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
