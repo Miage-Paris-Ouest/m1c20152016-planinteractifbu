@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="m1c20152016_planinteractifbu.fr.paris10.miage.projet.grp3.planbu.MainActivity">
+    tools:context=".MainActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -17,12 +17,8 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-<<<<<<< HEAD
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
-=======
             app:popupTheme="@style/AppTheme.PopupOverlay"
             android:clickable="false" />
->>>>>>> c1482d9b8e2deaa2ce3aa2535356b2f5fb84898b
 
     </android.support.design.widget.AppBarLayout>
 
