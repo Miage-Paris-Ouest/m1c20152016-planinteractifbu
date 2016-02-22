@@ -17,14 +17,11 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-<<<<<<< HEAD
-=======
         </activity>
         <activity
             android:name=".leplan.Plan"
             android:label="@string/titre_layout_plan"
             android:theme="@style/AppTheme">
->>>>>>> c1482d9b8e2deaa2ce3aa2535356b2f5fb84898b
         </activity>
     </application>
 
