@@ -1,4 +1,4 @@
-package m1c20152016_planinteractifbu.fr.paris10.miage.projet.grp3.planbu;
+package grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu;
 
 import android.support.v7.app.AppCompatActivity;
 
@@ -13,9 +13,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.R;
-import m1c20152016_planinteractifbu.fr.paris10.miage.projet.grp3.planbu.leplan.Plan;
-
+import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.leplan.Plan;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
