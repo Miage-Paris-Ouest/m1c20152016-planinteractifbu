@@ -13,8 +13,4 @@
     tools:showIn="@layout/app_bar_main"
     android:background="@drawable/stadebu">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Plan BU" />
 </RelativeLayout>
