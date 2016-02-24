@@ -12,6 +12,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.leplan.PlanActivity;
+import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.leplan.PlanImage;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -72,15 +73,17 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-       if (id == R.id.nav_plan) {
-           Intent it_plan = new Intent(MainActivity.this, PlanActivity.class);
-           startActivity(it_plan);
-        } else if (id == R.id.nav_cote) {
+       if (id == R.id.nav_plan_image) {
+           Intent it_plan_im = new Intent(MainActivity.this, PlanImage.class);
+           startActivity(it_plan_im);
+       } else if (id == R.id.nav_plan_interactif) {
+           Intent it_plan_inter = new Intent(MainActivity.this, PlanActivity.class);
+           startActivity(it_plan_inter);
+       } else if (id == R.id.nav_cote){
 
-        } else if (id == R.id.nav_dis) {
+       } else if (id == R.id.nav_dis) {
 
-        }
-
+       }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
