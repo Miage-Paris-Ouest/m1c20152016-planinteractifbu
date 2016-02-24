@@ -5,8 +5,11 @@ import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.di
 public class SalleContenantEtageres extends Salle {
     private Discipline discipline;
 
-    public SalleContenantEtageres(String nom, int left, int top, int right, int bottom, int color, float borderWidth, int borderColor, boolean afficherNom, Discipline discipline) {
+    public SalleContenantEtageres(String nom, int left, int top, int right, int bottom, int color, float borderWidth, int borderColor, boolean afficherNom) {
         super(nom, left, top, right, bottom, color, borderWidth, borderColor, afficherNom);
+    }
+
+    public void setDiscipline(Discipline discipline) {
         this.discipline = discipline;
     }
 
