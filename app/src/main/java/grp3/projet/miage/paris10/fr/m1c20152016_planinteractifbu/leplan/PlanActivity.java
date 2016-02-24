@@ -14,7 +14,7 @@ public class PlanActivity extends Activity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.plan_interactif);
-        PlanView plan = (PlanView)findViewById(R.id.plan_view);
+        PlanView plan = (PlanView) findViewById(R.id.plan_view);
         plan.setBackgroundColor(Color.RED);
     }
 }

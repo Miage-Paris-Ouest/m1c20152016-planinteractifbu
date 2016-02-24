@@ -2,18 +2,12 @@ package grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.s
 
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.discipline.Discipline;
 
-public class SalleContenantEtageres extends ConcreteSalle {
-    private String nom;
+public class SalleContenantEtageres extends Salle {
     private Discipline discipline;
 
-    public SalleContenantEtageres(String nom, Discipline discipline) {
-        super();
-        this.nom = nom;
+    public SalleContenantEtageres(String nom, int left, int top, int right, int bottom, int color, float borderWidth, int borderColor, boolean afficherNom, Discipline discipline) {
+        super(nom, left, top, right, bottom, color, borderWidth, borderColor, afficherNom);
         this.discipline = discipline;
-    }
-
-    public String getNom() {
-        return nom;
     }
 
     public Discipline getDiscipline() {
