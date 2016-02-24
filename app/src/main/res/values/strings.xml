@@ -4,5 +4,7 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="titre_layout_plan">layout_plan</string>
+    <string name="layout_plan_interactif">layout plan interactif</string>
+    <string name="layout_plan_image">layout plan image</string>
+    <string name="planimage">plan image</string>
 </resources>
