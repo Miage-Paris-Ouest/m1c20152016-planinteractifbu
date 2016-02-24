@@ -1,6 +1,7 @@
 package grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.salle;
 
 import java.util.HashSet;
+import java.util.NoSuchElementException;
 import java.util.Set;
 
 public class Etage {
@@ -32,5 +33,12 @@ public class Etage {
 
     public Set<SalleContenantEtageres> getSallesEtageres() {
         return sallesEtageres;
+    }
+
+    public SalleContenantEtageres getSalleEtageresByName(String nomSalle) {
+        for(SalleContenantEtageres s : sallesEtageres) {
+            if(s.getNom().equals(nomSalle)) return s;
+        }
+        throw new NoSuchElementException("Aucune salle ayant pour nom \"" + nomSalle + "\" n'a ete trouve.");
     }
 }
