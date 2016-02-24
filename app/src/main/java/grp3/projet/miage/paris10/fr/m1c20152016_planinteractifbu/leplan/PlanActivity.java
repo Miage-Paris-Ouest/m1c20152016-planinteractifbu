@@ -8,7 +8,7 @@ import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.R;
 /**
  * Created by Kiki on 20/02/16.
  */
-public class Plan extends Activity{
+public class PlanActivity extends Activity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
