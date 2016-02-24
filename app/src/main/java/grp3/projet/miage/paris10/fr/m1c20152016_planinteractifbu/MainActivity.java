@@ -11,7 +11,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.leplan.Plan;
+import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.leplan.PlanActivity;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
        if (id == R.id.nav_plan) {
-           Intent it_plan = new Intent(MainActivity.this, Plan.class);
+           Intent it_plan = new Intent(MainActivity.this, PlanActivity.class);
            startActivity(it_plan);
         } else if (id == R.id.nav_cote) {
 
