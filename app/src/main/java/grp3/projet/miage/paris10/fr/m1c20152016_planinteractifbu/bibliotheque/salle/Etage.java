@@ -18,19 +18,19 @@ public class Etage {
         return num;
     }
 
-    public Set<Salle> getSalles() {
-        return salles;
-    }
-
-    public Set<SalleContenantEtageres> getSallesEtageres() {
-        return sallesEtageres;
-    }
-
     public void addSalle(Salle salle) {
         salles.add(salle);
     }
 
     public void addSalleContenantEtagere(SalleContenantEtageres salle) {
         sallesEtageres.add(salle);
+    }
+
+    public Set<Salle> getSalles() {
+        return salles;
+    }
+
+    public Set<SalleContenantEtageres> getSallesEtageres() {
+        return sallesEtageres;
     }
 }
