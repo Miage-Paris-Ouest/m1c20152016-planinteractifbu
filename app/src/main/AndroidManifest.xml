@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".leplan.Plan"
+            android:name=".leplan.PlanActivity"
             android:label="@string/titre_layout_plan"
             android:theme="@style/AppTheme">
         </activity>
