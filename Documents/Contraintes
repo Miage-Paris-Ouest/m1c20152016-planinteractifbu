@@ -1,5 +1,5 @@
 Le format des fichiers attendu est :
-  - un format de type CSV
+  - un format de type CSV (avec des ";" comme séparateurs !
   - ce fichier sera constitué de 5 données (colonnes sous Excel) :
     * Salle :
       Cette colonne devra contenir le nom de la salle concernée. Il ne peut pas en avoir plusieurs.
@@ -12,7 +12,7 @@ Le format des fichiers attendu est :
       Cette colonne ne contient le nom que d'un seul secteur (ou discipline), un nom pourra être composé et séparé d'un "-" par exemple
       "Beaux-Arts", ou alors juste d'un espace, comme "Latin Grec"
     * Sous/discipline :
-      
+      Idem à la colonne secteur/discipline
     * Cote :
       On aura dans cette colonne la liste des cotes à prendre avec des fois, certaines à exclure.
       Elles sont sous la forme d'un nombre ou d'une chaine de caractères (constituée de chiffre(s) et lettre(s)) et peuvent avoir une
