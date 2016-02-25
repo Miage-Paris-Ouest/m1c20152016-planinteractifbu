@@ -16,6 +16,7 @@ import android.widget.ListView;
 import java.io.InputStream;
 import java.util.List;
 
+import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.csvreader.AfficherCSV;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.csvreader.CSVFile;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.csvreader.ItemArrayAdapter;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.leplan.PlanActivity;
@@ -90,26 +91,13 @@ public class MainActivity extends AppCompatActivity
            Intent it_plan_inter = new Intent(MainActivity.this, PlanActivity.class);
            startActivity(it_plan_inter);
        } else if (id == R.id.nav_cote){
-           setContentView(R.layout.test_layout);
-           listView = (ListView) findViewById(R.id.listView);
-           itemArrayAdapter = new ItemArrayAdapter(getApplicationContext(), R.layout.item_layout);
-
-           Parcelable state = listView.onSaveInstanceState();
-           listView.setAdapter(itemArrayAdapter);
-           listView.onRestoreInstanceState(state);
-
-           InputStream inputStream = getResources().openRawResource(R.raw.livres);
-           CSVFile csvFile = new CSVFile(inputStream);
-           List<String[]> scoreList = csvFile.read();
-
-           for(String[] scoreData:scoreList ) {
-               itemArrayAdapter.add(scoreData);
-           }
+           Intent it_fichier_csv = new Intent(MainActivity.this, AfficherCSV.class);
+           startActivity(it_fichier_csv);
        } else if (id == R.id.nav_dis) {
 
        }
-        /*DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);*/
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
         return true;
     }
 }
