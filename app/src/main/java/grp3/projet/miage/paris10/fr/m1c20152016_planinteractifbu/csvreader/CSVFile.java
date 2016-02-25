@@ -7,6 +7,10 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Created by Mohamed on 20/02/2016.
+ */
+
 public class CSVFile {
     InputStream inputStream;
 
@@ -20,7 +24,7 @@ public class CSVFile {
         try {
             String csvLine;
             while ((csvLine = reader.readLine()) != null) {
-                String[] row = csvLine.split(",");
+                String[] row = csvLine.split(";");
                 resultList.add(row);
             }
         } catch (IOException ex) {

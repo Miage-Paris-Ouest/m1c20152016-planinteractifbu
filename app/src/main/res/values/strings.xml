@@ -7,4 +7,5 @@
     <string name="layout_plan_interactif">layout plan interactif</string>
     <string name="layout_plan_image">layout plan image</string>
     <string name="planimage">plan image</string>
+    <string name="affiche_csv">Lecture du CSV</string>
 </resources>
