@@ -1,56 +1,56 @@
 SALLE;ETAGERE;SECTEUR / discipline;SOUS- DISCIPLINE;COTE
-Sciences Sociales;Etagère A ;Sciences de l’information;Ecrits - Edition - Audiovisuel ;00
-Sciences Sociales;;Sciences de l’information;Bibliothéconomie ;02
-Plusieurs;;Usuels - Encyclopédies et dictionnaires ;Usuels - Encyclopédies et dictionnaires ;03
-Economie;;Généralités;Généralités, gérées par le Droit ;04
-Sciences Sociales;;Sciences de l’information;Presse et information ;07 sauf 074, 079
-Sciences Sociales;;Sciences de l’information;Différentes catégories de presse ;074
-Sciences Sociales;;Sciences de l’information;Les journalistes ;079
-Sciences Humaines;;Philosophie;Philosophie - Généralités / Philosophes ;1 sauf 10 à 17
-Sciences Humaines;;Philosophie;Domaines, méthodes de la philosophie ;101
-Sciences Humaines;;Philosophie;Métaphysique ;11 sauf 111, 113, 115
+Sciences Sociales;Etagere test AB ;Sciences de lï¿½information;Ecrits - Edition - Audiovisuel ;00
+Sciences Sociales;;Sciences de lï¿½information;Bibliothï¿½conomie ;02
+Plusieurs;;Usuels - Encyclopï¿½dies et dictionnaires ;Usuels - Encyclopï¿½dies et dictionnaires ;03
+Economie;;Gï¿½nï¿½ralitï¿½s;Gï¿½nï¿½ralitï¿½s, gï¿½rï¿½es par le Droit ;04
+Sciences Sociales;;Sciences de lï¿½information;Presse et information ;07 sauf 074, 079
+Sciences Sociales;;Sciences de lï¿½information;Diffï¿½rentes catï¿½gories de presse ;074
+Sciences Sociales;;Sciences de lï¿½information;Les journalistes ;079
+Sciences Humaines;;Philosophie;Philosophie - Gï¿½nï¿½ralitï¿½s / Philosophes ;1 sauf 10 ï¿½ 17
+Sciences Humaines;;Philosophie;Domaines, mï¿½thodes de la philosophie ;101
+Sciences Humaines;;Philosophie;Mï¿½taphysique ;11 sauf 111, 113, 115
 Sciences Humaines;;Philosophie;Ontologie ;111
 Sciences Humaines;;Philosophie;Philisophie de la nature ;113
 Sciences Humaines;;Philosophie;Philisophie du temps;115
-Sciences Humaines;;Philosophie;Causalité ;122
-Sciences Humaines;;Philosophie;Liberté ;123
+Sciences Humaines;;Philosophie;Causalitï¿½ ;122
+Sciences Humaines;;Philosophie;Libertï¿½ ;123
 Sciences Humaines;;Philosophie;Philosophie de la valeur ;124
 Sciences Humaines;;Philosophie;Vie et mort ;128
-Sciences Humaines;;Philosophie;Philosophie de l’esprit, de l’action, politique, de la culture ;13
-Sciences Humaines;;Philosophie;Systèmes philosophiques ;141
-Sciences Sociales;;Psychologie;Psychologie - Généralités ;15 sauf 159.9
-Sciences Sociales;;Psychologie;Psychologie clinique - ouvrages généraux ;159.9 sauf 159.91 à 159.97
+Sciences Humaines;;Philosophie;Philosophie de lï¿½esprit, de lï¿½action, politique, de la culture ;13
+Sciences Humaines;;Philosophie;Systï¿½mes philosophiques ;141
+Sciences Sociales;;Psychologie;Psychologie - Gï¿½nï¿½ralitï¿½s ;15 sauf 159.9
+Sciences Sociales;;Psychologie;Psychologie clinique - ouvrages gï¿½nï¿½raux ;159.9 sauf 159.91 ï¿½ 159.97
 Sciences Sociales;;Psychologie;Psychophysiologie ;159.91
-Sciences Sociales;;Psychologie;Psychologie différentielle ;159.92 sauf 159.922 à 159.929
+Sciences Sociales;;Psychologie;Psychologie diffï¿½rentielle ;159.92 sauf 159.922 ï¿½ 159.929
 Sciences Sociales;;Psychologie;Conscience ;159.922
-Sciences Sociales;;Psychologie;Personnalité, caractère ;159.923 à 159.929
+Sciences Sociales;;Psychologie;Personnalitï¿½, caractï¿½re ;159.923 ï¿½ 159.929
 Sciences Sociales;;Psychologie;Perception ;159.93
 Sciences Sociales;;Psychologie;Communication non verbale ;159.942, 159.943, 159.946, 159.947
-Sciences Sociales;;Psychologie;Cognition, intelligence ;159.95 sauf 159.952 à 159.955
-Sciences Sociales;;Psychologie;Attention ;159.952 à 159.955
-Sciences Sociales;;Psychologie;Etats modifiés de la conscience ;159.961 à 159.963
+Sciences Sociales;;Psychologie;Cognition, intelligence ;159.95 sauf 159.952 ï¿½ 159.955
+Sciences Sociales;;Psychologie;Attention ;159.952 ï¿½ 159.955
+Sciences Sociales;;Psychologie;Etats modifiï¿½s de la conscience ;159.961 ï¿½ 159.963
 Sciences Sociales;;Psychologie;Psychanalyse ;159.964
 Sciences Sociales;;Psychologie;Psychopathologie ;159.97
 Sciences Humaines;;Philosophie;Logique ;16
 Sciences Humaines;;Philosophie;Morale ;17
-Sciences Humaines;;Religion;Religion - Généralités ;2 sauf 21 à 29
-Sciences Humaines;;Religion;Philosophie et théorie de la religion ;21
+Sciences Humaines;;Religion;Religion - Gï¿½nï¿½ralitï¿½s ;2 sauf 21 ï¿½ 29
+Sciences Humaines;;Religion;Philosophie et thï¿½orie de la religion ;21
 Sciences Humaines;;Religion;Bible;22
-Sciences Humaines;;Religion;Théologie dogmatique;23
-Sciences Humaines;;Religion;Théologie morale ;24
-Sciences Humaines;;Religion;Théologie pastorale ;25
-Sciences Humaines;;Religion;Eglise chrétienne ;26
-Sciences Humaines;;Religion;Histoire générale de l’Eglise chrétienne ;27
-Sciences Humaines;;Religion;Différentes églises chrétiennes ;28
-Sciences Humaines;;Religion;Religions non chrétiennes - généralités ;29 sauf 292,294,296 , 297 et 299
+Sciences Humaines;;Religion;Thï¿½ologie dogmatique;23
+Sciences Humaines;;Religion;Thï¿½ologie morale ;24
+Sciences Humaines;;Religion;Thï¿½ologie pastorale ;25
+Sciences Humaines;;Religion;Eglise chrï¿½tienne ;26
+Sciences Humaines;;Religion;Histoire gï¿½nï¿½rale de lï¿½Eglise chrï¿½tienne ;27
+Sciences Humaines;;Religion;Diffï¿½rentes ï¿½glises chrï¿½tiennes ;28
+Sciences Humaines;;Religion;Religions non chrï¿½tiennes - gï¿½nï¿½ralitï¿½s ;29 sauf 292,294,296 , 297 et 299
 Sciences Humaines;;Religion;Religion des Grecs et des Romains ;292
 Sciences Humaines;;Religion;Hindouisme, Bouddhisme ;294
-Sciences Humaines;;Religion;Judaïsme ;296
+Sciences Humaines;;Religion;Judaï¿½sme ;296
 Sciences Humaines;;Religion;Islam ;297
 Sciences Humaines;;Religion;Autres religions ;299
-Sciences Sociales;;Sociologie;Sociologie - Généralités ;3 sauf 30, 31, 33 et 37
+Sciences Sociales;;Sociologie;Sociologie - Gï¿½nï¿½ralitï¿½s ;3 sauf 30, 31, 33 et 37
 Sciences Sociales;;Ethnologie;Ethnologie ;30 sauf 301, 304 et 308
-Sciences Sociales;;Sociologie;Sociologie générale ;301 sauf 301.15,301.16,301.17, 301.185, 301.187, 301.188, 301.199
+Sciences Sociales;;Sociologie;Sociologie gï¿½nï¿½rale ;301 sauf 301.15,301.16,301.17, 301.185, 301.187, 301.188, 301.199
 Sciences Sociales;;Psychologie sociale;Psychologie sociale ;301.15
 Sciences Sociales;;Psychologie sociale;Dynamique des groupes, travail ;301.16
 Sciences Sociales;;Sociologie;Cultures et civilisations ;301.17
@@ -58,259 +58,259 @@ Sciences Sociales;;Sociologie;Groupes sociaux - Classes sociales ;301.185
 Sciences Sociales;;Sociologie;Stratification sociale ;301.187
 Sciences Sociales;;Sociologie;Sociologie par grands domaines ;301.188
 Sciences Sociales;;Sociologie;Sociologues, Anthropologues ;301.199
-Sciences Sociales;;Sociologie;Problèmes sociaux. Travail social ;304
-Sciences Sociales;;Sociologie;Mémoires. Récits personnels ;308
-Sciences Sociales;;Sociologie;Démographie ;314
+Sciences Sociales;;Sociologie;Problï¿½mes sociaux. Travail social ;304
+Sciences Sociales;;Sociologie;Mï¿½moires. Rï¿½cits personnels ;308
+Sciences Sociales;;Sociologie;Dï¿½mographie ;314
 Sciences Sociales;;Sociologie;Socialisme ;335
-Sciences Sociales;;Sciences de l’éducation;Sciences de l’éducation - Généralité ;37 sauf 371 à 374,376 à 379
-Sciences Sociales;;Sciences de l’éducation;Organisation des systèmes d’enseignement ;371
-Sciences Sociales;;Sciences de l’éducation;Didactique ;372
-Sciences Sociales;;Sciences de l’éducation;Systèmes éducatifs et scolaires ;373
-Sciences Sociales;;Sciences de l’éducation;Formation continue ;374
-Sciences Sociales;;Sciences de l’éducation;Education spécialisée ;376
-Sciences Sociales;;Sciences de l’éducation;Enseignement technique et professionnel ;377
-Sciences Sociales;;Sciences de l’éducation;Histoire des universités ;378
+Sciences Sociales;;Sciences de lï¿½ï¿½ducation;Sciences de lï¿½ï¿½ducation - Gï¿½nï¿½ralitï¿½ ;37 sauf 371 ï¿½ 374,376 ï¿½ 379
+Sciences Sociales;;Sciences de lï¿½ï¿½ducation;Organisation des systï¿½mes dï¿½enseignement ;371
+Sciences Sociales;;Sciences de lï¿½ï¿½ducation;Didactique ;372
+Sciences Sociales;;Sciences de lï¿½ï¿½ducation;Systï¿½mes ï¿½ducatifs et scolaires ;373
+Sciences Sociales;;Sciences de lï¿½ï¿½ducation;Formation continue ;374
+Sciences Sociales;;Sciences de lï¿½ï¿½ducation;Education spï¿½cialisï¿½e ;376
+Sciences Sociales;;Sciences de lï¿½ï¿½ducation;Enseignement technique et professionnel ;377
+Sciences Sociales;;Sciences de lï¿½ï¿½ducation;Histoire des universitï¿½s ;378
 Sciences Sociales;;Sport;Sport ;379.9
-Sciences Sociales;;Histoire des sciences;Sciences - Généralités ;5 sauf 50 à 59
+Sciences Sociales;;Histoire des sciences;Sciences - Gï¿½nï¿½ralitï¿½s ;5 sauf 50 ï¿½ 59
 Sciences Sociales;;Histoire des sciences;Sciences environnementales ;502
-Economie;;Mathématiques;Mathématiques ;51
+Economie;;Mathï¿½matiques;Mathï¿½matiques ;51
 Sciences Sociales;;Histoire des sciences;Astronomie, cosmologie, astrophysique, astrochimie ;52
 Sciences Sociales;;Histoire des sciences;Physique ;53
 Sciences Sociales;;Histoire des sciences;Chimie ;54 sauf 549
-Sciences Sociales;;Histoire des sciences;Minéralogie ;549
-Sciences Sociales;;Histoire des sciences;Paléontologie, dinosaures ;56 sauf 569
-Sciences Sociales;;Histoire des sciences;Paléontologie humaine ;569
-Sciences Sociales;;Histoire des sciences;Biologie générale ;57
+Sciences Sociales;;Histoire des sciences;Minï¿½ralogie ;549
+Sciences Sociales;;Histoire des sciences;Palï¿½ontologie, dinosaures ;56 sauf 569
+Sciences Sociales;;Histoire des sciences;Palï¿½ontologie humaine ;569
+Sciences Sociales;;Histoire des sciences;Biologie gï¿½nï¿½rale ;57
 Sciences Sociales;;Histoire des sciences;Botanique ;58
 Sciences Sociales;;Histoire des sciences;Biologie animale ;59
 Sciences Sociales;;Histoire des sciences;Philosophie-histoire des techniques ;6 sauf 61, 681
-Sciences Sociales;;Médecine;Médecine - Généralités ;61 sauf 611 à 618
-Sciences Sociales;;Médecine;Anatomie ;611
-Sciences Sociales;;Médecine;Physiologie et biologie ;612
-Sciences Sociales;;Médecine;Santé et hygiène ;613
-Sciences Sociales;;Médecine;Santé et hygiène publique ;614
-Sciences Sociales;;Médecine;Pharmacologie, psychotropes ;615 sauf 615.851
-Sciences Sociales;;Médecine;Psychotérapie ;615.851
-Sciences Sociales;;Médecine;Pathologie, médecine clinique ;616 sauf 616.89
-Sciences Sociales;;Médecine;Psychiatrie ;616.89
-Sciences Sociales;;Médecine;Chirurgie ;617
-Sciences Sociales;;Médecine;Gynécologie, obstetrique, ménopause ;618
+Sciences Sociales;;Mï¿½decine;Mï¿½decine - Gï¿½nï¿½ralitï¿½s ;61 sauf 611 ï¿½ 618
+Sciences Sociales;;Mï¿½decine;Anatomie ;611
+Sciences Sociales;;Mï¿½decine;Physiologie et biologie ;612
+Sciences Sociales;;Mï¿½decine;Santï¿½ et hygiï¿½ne ;613
+Sciences Sociales;;Mï¿½decine;Santï¿½ et hygiï¿½ne publique ;614
+Sciences Sociales;;Mï¿½decine;Pharmacologie, psychotropes ;615 sauf 615.851
+Sciences Sociales;;Mï¿½decine;Psychotï¿½rapie ;615.851
+Sciences Sociales;;Mï¿½decine;Pathologie, mï¿½decine clinique ;616 sauf 616.89
+Sciences Sociales;;Mï¿½decine;Psychiatrie ;616.89
+Sciences Sociales;;Mï¿½decine;Chirurgie ;617
+Sciences Sociales;;Mï¿½decine;Gynï¿½cologie, obstetrique, mï¿½nopause ;618
 Economie;;Informatique;Informatique ;681
-Sciences Humaines;;Beaux-Arts;Art en général ;7 sauf 71, 72, 73, 74, 75, 76, 77, 78, 79
+Sciences Humaines;;Beaux-Arts;Art en gï¿½nï¿½ral ;7 sauf 71, 72, 73, 74, 75, 76, 77, 78, 79
 Sciences Humaines;;Urbanisme;Urbanisme ;71 sauf 712
 Sciences Humaines;;Beaux-Arts;Art des jardins ;712
 Sciences Humaines;;Beaux-Arts;Architecture ;72 sauf 725, 726, 727, 728, 729
-Sciences Humaines;;Beaux-Arts;Bâtiments publics, civils, commerciaux et industriels ;725
+Sciences Humaines;;Beaux-Arts;Bï¿½timents publics, civils, commerciaux et industriels ;725
 Sciences Humaines;;Beaux-Arts;Architecture religieuse ;726
-Sciences Humaines;;Beaux-Arts;Architecture des bâtiments culturels ;727
+Sciences Humaines;;Beaux-Arts;Architecture des bï¿½timents culturels ;727
 Sciences Humaines;;Beaux-Arts;Architecture domestique ;728
-Sciences Humaines;;Beaux-Arts;Décoration des bâtiments ;729
+Sciences Humaines;;Beaux-Arts;Dï¿½coration des bï¿½timents ;729
 Sciences Humaines;;Beaux-Arts;Sculpture ;73 sauf 737,738,739
 Sciences Humaines;;Beaux-Arts;Numismatique ;737
-Sciences Humaines;;Beaux-Arts;Céramique d’art ;738
-Sciences Humaines;;Beaux-Arts;Arts du métal ;739
-Sciences Humaines;;Beaux-Arts;Dessin et métiers d’art ;74 sauf 741, 746, 747, 748, 749
+Sciences Humaines;;Beaux-Arts;Cï¿½ramique dï¿½art ;738
+Sciences Humaines;;Beaux-Arts;Arts du mï¿½tal ;739
+Sciences Humaines;;Beaux-Arts;Dessin et mï¿½tiers dï¿½art ;74 sauf 741, 746, 747, 748, 749
 Sciences Humaines;;Beaux-Arts;Dessin satirique - Caricature ;741
-Sciences Humaines;;Beaux-Arts;Travaux d’aiguilles ;746
-Sciences Humaines;;Beaux-Arts;Architecture intérieure ;747
+Sciences Humaines;;Beaux-Arts;Travaux dï¿½aiguilles ;746
+Sciences Humaines;;Beaux-Arts;Architecture intï¿½rieure ;747
 Sciences Humaines;;Beaux-Arts;Verrerie ;748
-Sciences Humaines;;Beaux-Arts;Mobilier d’art ;749
+Sciences Humaines;;Beaux-Arts;Mobilier dï¿½art ;749
 Sciences Humaines;;Beaux-Arts;Peinture ;75 sauf 753, 755, 757, 758
-Sciences Humaines;;Beaux-Arts;Genres picturaux;753 à 758
+Sciences Humaines;;Beaux-Arts;Genres picturaux;753 ï¿½ 758
 Sciences Humaines;;Beaux-Arts;Arts graphiques ;76
 Sciences Humaines;;Beaux-Arts;Photographie ;77
-Sciences Humaines;;Arts du spectacle;Musique ;78 sauf 781 à 789
-Sciences Humaines;;Arts du spectacle;Genres musicaux ;781 à 789
-Sciences Humaines;;Arts du spectacle;Cinéma ;791
-Sciences Humaines;;Arts du spectacle;Théâtre ;792
-Langues et Littératures;;Linguistique;Linguistique générale ;80 sauf 800 a 809
-Langues et Littératures;;Linguistique;Ouvrages généraux sur le langage ;800
-Langues et Littératures;;Linguistique;Linguistique - ouvrages généraux ;801
-Langues et Littératures;;Langues et littératures anglo-américaines;Langue anglaise ;802 sauf 802.0(73)
-Langues et Littératures;;Langues et littératures anglo-américaines;Langue américaine ;802.0(73)
-Langues et Littératures;;Langues et littératures germaniques;Langue allemande ;803 sauf 803.9
-Langues et Littératures;;Langues et littératures germaniques;Langues germaniques autres que l’allemand ;803.9
-Langues et Littératures;;Langue et littérature française;Langue française ;804 sauf 804.99
-Langues et Littératures;;Langues et littératures hispaniques;Langue catalane ;804.99
-Langues et Littératures;;Langue et littérature italienne;Langue italienne ;805 sauf 805.90
-Langues et Littératures;;Langue et littérature roumaine;Linguistique roumaine ;805.90
-Langues et Littératures;;Langues et littératures hispaniques;Langue espagnole ;806.0 sauf 806.0(8)
-Langues et Littératures;;Langues et littératures hispaniques;Langue hispano-américaine ;806.0(8)
-Langues et Littératures;;Langues et littératures lusophones;Langue portugaise ;806.90
-Langues et Littératures;;Langues et littératures hispaniques;Langue galicienne ;806.99
-Langues et Littératures;;Latin Grec;Langues classiques en général ou comparées ;807.0
-Langues et Littératures;;Latin Grec;Latin classique (langue) ;807.1
-Langues et Littératures;;Latin Grec;Langues italiques ;807.2
-Langues et Littératures;;Latin Grec;Latin non classique ;807.3
-Langues et Littératures;;Latin Grec;Langue grecque classique ;807.5
-Langues et Littératures;;Latin Grec;Dialectes grecs ;807.6
-Langues et Littératures;;Latin Grec;Langue Grecque non classique ;807.7
-Langues et Littératures;;Langues et littératures orientales;Langues slaves ;808.1
-Langues et Littératures;;Langues et littératures orientales;Langue russe ;808.2
-Langues et Littératures;;Langues et littératures orientales;Langues d’Europe de l’Est ;808.3 à 808.5
-Langues et Littératures;;Langues et littératures orientales;Langue serbo-croate ;808.6 sauf 808.67
-Langues et Littératures;;Langues et littératures orientales;Langue bulgare ;808.67
-Langues et Littératures;;Latin Grec;Dialectes pré-italiques ;809.19
-Langues et Littératures;;Langues et littératures orientales;Langues orientales ;809
-Langues et Littératures;;Littérature générale;Littérature générale ;82 sauf 820
-Langues et Littératures;;Langues et littératures anglo-américaines;Littérature anglaise ;820 sauf 820(4, 820(5, 820(6, 820(7, 820(9
-;;;Littérature anglaise ;"820""14"""
-;;;Littérature anglaise ;"820""15"""
-;;;Littérature anglaise ;"820""16"""
-;;;Littérature anglaise ;"820""17"""
-;;;Littérature anglaise ;"820""18"""
-;;;Littérature anglaise ;"820""19"""
-;;;Littérature anglaise ;"820""20"""
-Langues et Littératures;;Langues et littératures anglo-américaines;Littérature du Commonwealth ;820(41-44)
-Langues et Littératures;;Langues et littératures anglo-américaines;Littérature irlandaise ;820(417)
-Langues et Littératures;;Langues et littératures anglo-américaines;Littérature anglaise de l’Inde ;820(54)
-Langues et Littératures;;Langues et littératures anglo-américaines;Littérature africaine de langue anglaise ;820(6)
-Langues et Littératures;;Langues et littératures anglo-américaines;Littérature canadienne ;820(71)
-Langues et Littératures;;Langues et littératures anglo-américaines;Littérature anglaise des Caraïbes ;820(729.7/8)
-Langues et Littératures;;Langues et littératures anglo-américaines;Littérature américaine ;820(73)
-;;;Littérature américaine ;"820(73)""14"""
-;;;Littérature américaine ;"820(73)""15"""
-;;;Littérature américaine ;"820(73)""16"""
-;;;Littérature américaine ;"820(73)""17"""
-;;;Littérature américaine ;"820(73)""18"""
-;;;Littérature américaine ;"820(73)""19"""
-;;;Littérature américaine ;"820(73)""20"""
-Langues et Littératures;;Langues et littératures anglo-américaines;Littérature anglaise de Nouvelle-Zélande ;820(931)
-Langues et Littératures;;Langues et littératures anglo-américaines;Littérature anglaise d’Australie ;820(94)
-Langues et Littératures;;Langues et littératures germaniques;Littérature allemande ;830
-;;;Littérature allemande ;"830""14"""
-;;;Littérature allemande ;"830""15"""
-;;;Littérature allemande ;"830""16"""
-;;;Littérature allemande ;"830""17"""
-;;;Littérature allemande ;"830""18"""
-;;;Littérature allemande ;"830""19"""
-;;;Littérature allemande ;"830""20"""
-Langues et Littératures;;Langues et littératures germaniques;Littératures germaniques autres que l’allemand ;839
-Langues et Littératures;;Langue et littérature française;Littérature française ;840
-Langues et Littératures;;Langue et littérature française;Littérature française ;"840""14"""
-Langues et Littératures;;Langue et littérature française;Littérature française ;"840""15"""
-Langues et Littératures;;Langue et littérature française;Littérature française ;"840""16"""
-Langues et Littératures;;Langue et littérature française;Littérature française ;"840""17"""
-Langues et Littératures;;Langue et littérature française;Littérature française ;"840""18"""
-Langues et Littératures;;Langue et littérature française;Littérature française ;"840""19"""
-Langues et Littératures;;Langue et littérature française;Littérature française ;"840""20"""
-Langues et Littératures;;Langues et littératures hispaniques;Littérature catalane ;849.9
-Langues et Littératures;;Langue et littérature italienne;Littérature italienne ;850
-Langues et Littératures;;Langue et littérature roumaine;Littérature roumaine ;859
-Langues et Littératures;;Langues et littératures hispaniques;Littérature espagnole ;860 sauf 860(8)
-;;;Littérature espagnole ;"860""14"""
-;;;Littérature espagnole ;"860""15"""
-;;;Littérature espagnole ;"860""16"""
-;;;Littérature espagnole ;"860""17"""
-;;;Littérature espagnole ;"860""18"""
-;;;Littérature espagnole ;"860""19"""
-;;;Littérature espagnole ;"860""20"""
-Langues et Littératures;;Langues et littératures hispaniques;Littérature hispano-américaine ;860(8)
-Langues et Littératures;;Langues et littératures lusophones;Littérature portugaise ;869.0 sauf 869.0(6) et 869.0(8)
-Langues et Littératures;;Langues et littératures lusophones;Littérature africaine de langue portugaise ;869.0(6)
-Langues et Littératures;;Langues et littératures lusophones;Littérature brésilienne ;869.0(8)
-Langues et Littératures;;Langues et littératures hispaniques;Littérature galicienne ;869.90
-Langues et Littératures;;Latin Grec;Littératures classiques en général ou comparées ;870
-Langues et Littératures;;Latin Grec;Littérature latine classique ;871
-Langues et Littératures;;Latin Grec;Littérature latine médiévale ;873.3
-Langues et Littératures;;Latin Grec;Littérature grecque classique ;875
-Langues et Littératures;;Latin Grec;Littérature grecque byzantine ;877.3
-Langues et Littératures;;Latin Grec;Littérature grecque moderne ;877.4
-Langues et Littératures;;Langues et littératures orientales;Littérature slave en général ;88 sauf 882, 883, 884, 885, 886, 887, 888
-Langues et Littératures;;Langues et littératures orientales;Littérature russe ;882 sauf 882.6
-Langues et Littératures;;Langues et littératures orientales;Littérature biélo-russe ;882.6
-Langues et Littératures;;Langues et littératures orientales;Littérature d’Europe de l’Est ;883 à 885
-Langues et Littératures;;Langues et littératures orientales;Littérature serbo-croate ;886 sauf 886.7
-Langues et Littératures;;Langues et littératures orientales;Littérature bulgare ;886.7
-Langues et Littératures;;Langues et littératures orientales;Littératures orientales ;891 à 895
+Sciences Humaines;;Arts du spectacle;Musique ;78 sauf 781 ï¿½ 789
+Sciences Humaines;;Arts du spectacle;Genres musicaux ;781 ï¿½ 789
+Sciences Humaines;;Arts du spectacle;Cinï¿½ma ;791
+Sciences Humaines;;Arts du spectacle;Thï¿½ï¿½tre ;792
+Langues et Littï¿½ratures;;Linguistique;Linguistique gï¿½nï¿½rale ;80 sauf 800 a 809
+Langues et Littï¿½ratures;;Linguistique;Ouvrages gï¿½nï¿½raux sur le langage ;800
+Langues et Littï¿½ratures;;Linguistique;Linguistique - ouvrages gï¿½nï¿½raux ;801
+Langues et Littï¿½ratures;;Langues et littï¿½ratures anglo-amï¿½ricaines;Langue anglaise ;802 sauf 802.0(73)
+Langues et Littï¿½ratures;;Langues et littï¿½ratures anglo-amï¿½ricaines;Langue amï¿½ricaine ;802.0(73)
+Langues et Littï¿½ratures;;Langues et littï¿½ratures germaniques;Langue allemande ;803 sauf 803.9
+Langues et Littï¿½ratures;;Langues et littï¿½ratures germaniques;Langues germaniques autres que lï¿½allemand ;803.9
+Langues et Littï¿½ratures;;Langue et littï¿½rature franï¿½aise;Langue franï¿½aise ;804 sauf 804.99
+Langues et Littï¿½ratures;;Langues et littï¿½ratures hispaniques;Langue catalane ;804.99
+Langues et Littï¿½ratures;;Langue et littï¿½rature italienne;Langue italienne ;805 sauf 805.90
+Langues et Littï¿½ratures;;Langue et littï¿½rature roumaine;Linguistique roumaine ;805.90
+Langues et Littï¿½ratures;;Langues et littï¿½ratures hispaniques;Langue espagnole ;806.0 sauf 806.0(8)
+Langues et Littï¿½ratures;;Langues et littï¿½ratures hispaniques;Langue hispano-amï¿½ricaine ;806.0(8)
+Langues et Littï¿½ratures;;Langues et littï¿½ratures lusophones;Langue portugaise ;806.90
+Langues et Littï¿½ratures;;Langues et littï¿½ratures hispaniques;Langue galicienne ;806.99
+Langues et Littï¿½ratures;;Latin Grec;Langues classiques en gï¿½nï¿½ral ou comparï¿½es ;807.0
+Langues et Littï¿½ratures;;Latin Grec;Latin classique (langue) ;807.1
+Langues et Littï¿½ratures;;Latin Grec;Langues italiques ;807.2
+Langues et Littï¿½ratures;;Latin Grec;Latin non classique ;807.3
+Langues et Littï¿½ratures;;Latin Grec;Langue grecque classique ;807.5
+Langues et Littï¿½ratures;;Latin Grec;Dialectes grecs ;807.6
+Langues et Littï¿½ratures;;Latin Grec;Langue Grecque non classique ;807.7
+Langues et Littï¿½ratures;;Langues et littï¿½ratures orientales;Langues slaves ;808.1
+Langues et Littï¿½ratures;;Langues et littï¿½ratures orientales;Langue russe ;808.2
+Langues et Littï¿½ratures;;Langues et littï¿½ratures orientales;Langues dï¿½Europe de lï¿½Est ;808.3 ï¿½ 808.5
+Langues et Littï¿½ratures;;Langues et littï¿½ratures orientales;Langue serbo-croate ;808.6 sauf 808.67
+Langues et Littï¿½ratures;;Langues et littï¿½ratures orientales;Langue bulgare ;808.67
+Langues et Littï¿½ratures;;Latin Grec;Dialectes prï¿½-italiques ;809.19
+Langues et Littï¿½ratures;;Langues et littï¿½ratures orientales;Langues orientales ;809
+Langues et Littï¿½ratures;;Littï¿½rature gï¿½nï¿½rale;Littï¿½rature gï¿½nï¿½rale ;82 sauf 820
+Langues et Littï¿½ratures;;Langues et littï¿½ratures anglo-amï¿½ricaines;Littï¿½rature anglaise ;820 sauf 820(4, 820(5, 820(6, 820(7, 820(9
+;;;Littï¿½rature anglaise ;"820""14"""
+;;;Littï¿½rature anglaise ;"820""15"""
+;;;Littï¿½rature anglaise ;"820""16"""
+;;;Littï¿½rature anglaise ;"820""17"""
+;;;Littï¿½rature anglaise ;"820""18"""
+;;;Littï¿½rature anglaise ;"820""19"""
+;;;Littï¿½rature anglaise ;"820""20"""
+Langues et Littï¿½ratures;;Langues et littï¿½ratures anglo-amï¿½ricaines;Littï¿½rature du Commonwealth ;820(41-44)
+Langues et Littï¿½ratures;;Langues et littï¿½ratures anglo-amï¿½ricaines;Littï¿½rature irlandaise ;820(417)
+Langues et Littï¿½ratures;;Langues et littï¿½ratures anglo-amï¿½ricaines;Littï¿½rature anglaise de lï¿½Inde ;820(54)
+Langues et Littï¿½ratures;;Langues et littï¿½ratures anglo-amï¿½ricaines;Littï¿½rature africaine de langue anglaise ;820(6)
+Langues et Littï¿½ratures;;Langues et littï¿½ratures anglo-amï¿½ricaines;Littï¿½rature canadienne ;820(71)
+Langues et Littï¿½ratures;;Langues et littï¿½ratures anglo-amï¿½ricaines;Littï¿½rature anglaise des Caraï¿½bes ;820(729.7/8)
+Langues et Littï¿½ratures;;Langues et littï¿½ratures anglo-amï¿½ricaines;Littï¿½rature amï¿½ricaine ;820(73)
+;;;Littï¿½rature amï¿½ricaine ;"820(73)""14"""
+;;;Littï¿½rature amï¿½ricaine ;"820(73)""15"""
+;;;Littï¿½rature amï¿½ricaine ;"820(73)""16"""
+;;;Littï¿½rature amï¿½ricaine ;"820(73)""17"""
+;;;Littï¿½rature amï¿½ricaine ;"820(73)""18"""
+;;;Littï¿½rature amï¿½ricaine ;"820(73)""19"""
+;;;Littï¿½rature amï¿½ricaine ;"820(73)""20"""
+Langues et Littï¿½ratures;;Langues et littï¿½ratures anglo-amï¿½ricaines;Littï¿½rature anglaise de Nouvelle-Zï¿½lande ;820(931)
+Langues et Littï¿½ratures;;Langues et littï¿½ratures anglo-amï¿½ricaines;Littï¿½rature anglaise dï¿½Australie ;820(94)
+Langues et Littï¿½ratures;;Langues et littï¿½ratures germaniques;Littï¿½rature allemande ;830
+;;;Littï¿½rature allemande ;"830""14"""
+;;;Littï¿½rature allemande ;"830""15"""
+;;;Littï¿½rature allemande ;"830""16"""
+;;;Littï¿½rature allemande ;"830""17"""
+;;;Littï¿½rature allemande ;"830""18"""
+;;;Littï¿½rature allemande ;"830""19"""
+;;;Littï¿½rature allemande ;"830""20"""
+Langues et Littï¿½ratures;;Langues et littï¿½ratures germaniques;Littï¿½ratures germaniques autres que lï¿½allemand ;839
+Langues et Littï¿½ratures;;Langue et littï¿½rature franï¿½aise;Littï¿½rature franï¿½aise ;840
+Langues et Littï¿½ratures;;Langue et littï¿½rature franï¿½aise;Littï¿½rature franï¿½aise ;"840""14"""
+Langues et Littï¿½ratures;;Langue et littï¿½rature franï¿½aise;Littï¿½rature franï¿½aise ;"840""15"""
+Langues et Littï¿½ratures;;Langue et littï¿½rature franï¿½aise;Littï¿½rature franï¿½aise ;"840""16"""
+Langues et Littï¿½ratures;;Langue et littï¿½rature franï¿½aise;Littï¿½rature franï¿½aise ;"840""17"""
+Langues et Littï¿½ratures;;Langue et littï¿½rature franï¿½aise;Littï¿½rature franï¿½aise ;"840""18"""
+Langues et Littï¿½ratures;;Langue et littï¿½rature franï¿½aise;Littï¿½rature franï¿½aise ;"840""19"""
+Langues et Littï¿½ratures;;Langue et littï¿½rature franï¿½aise;Littï¿½rature franï¿½aise ;"840""20"""
+Langues et Littï¿½ratures;;Langues et littï¿½ratures hispaniques;Littï¿½rature catalane ;849.9
+Langues et Littï¿½ratures;;Langue et littï¿½rature italienne;Littï¿½rature italienne ;850
+Langues et Littï¿½ratures;;Langue et littï¿½rature roumaine;Littï¿½rature roumaine ;859
+Langues et Littï¿½ratures;;Langues et littï¿½ratures hispaniques;Littï¿½rature espagnole ;860 sauf 860(8)
+;;;Littï¿½rature espagnole ;"860""14"""
+;;;Littï¿½rature espagnole ;"860""15"""
+;;;Littï¿½rature espagnole ;"860""16"""
+;;;Littï¿½rature espagnole ;"860""17"""
+;;;Littï¿½rature espagnole ;"860""18"""
+;;;Littï¿½rature espagnole ;"860""19"""
+;;;Littï¿½rature espagnole ;"860""20"""
+Langues et Littï¿½ratures;;Langues et littï¿½ratures hispaniques;Littï¿½rature hispano-amï¿½ricaine ;860(8)
+Langues et Littï¿½ratures;;Langues et littï¿½ratures lusophones;Littï¿½rature portugaise ;869.0 sauf 869.0(6) et 869.0(8)
+Langues et Littï¿½ratures;;Langues et littï¿½ratures lusophones;Littï¿½rature africaine de langue portugaise ;869.0(6)
+Langues et Littï¿½ratures;;Langues et littï¿½ratures lusophones;Littï¿½rature brï¿½silienne ;869.0(8)
+Langues et Littï¿½ratures;;Langues et littï¿½ratures hispaniques;Littï¿½rature galicienne ;869.90
+Langues et Littï¿½ratures;;Latin Grec;Littï¿½ratures classiques en gï¿½nï¿½ral ou comparï¿½es ;870
+Langues et Littï¿½ratures;;Latin Grec;Littï¿½rature latine classique ;871
+Langues et Littï¿½ratures;;Latin Grec;Littï¿½rature latine mï¿½diï¿½vale ;873.3
+Langues et Littï¿½ratures;;Latin Grec;Littï¿½rature grecque classique ;875
+Langues et Littï¿½ratures;;Latin Grec;Littï¿½rature grecque byzantine ;877.3
+Langues et Littï¿½ratures;;Latin Grec;Littï¿½rature grecque moderne ;877.4
+Langues et Littï¿½ratures;;Langues et littï¿½ratures orientales;Littï¿½rature slave en gï¿½nï¿½ral ;88 sauf 882, 883, 884, 885, 886, 887, 888
+Langues et Littï¿½ratures;;Langues et littï¿½ratures orientales;Littï¿½rature russe ;882 sauf 882.6
+Langues et Littï¿½ratures;;Langues et littï¿½ratures orientales;Littï¿½rature biï¿½lo-russe ;882.6
+Langues et Littï¿½ratures;;Langues et littï¿½ratures orientales;Littï¿½rature dï¿½Europe de lï¿½Est ;883 ï¿½ 885
+Langues et Littï¿½ratures;;Langues et littï¿½ratures orientales;Littï¿½rature serbo-croate ;886 sauf 886.7
+Langues et Littï¿½ratures;;Langues et littï¿½ratures orientales;Littï¿½rature bulgare ;886.7
+Langues et Littï¿½ratures;;Langues et littï¿½ratures orientales;Littï¿½ratures orientales ;891 ï¿½ 895
 Sciences Humaines;;Histoire;Histoire - dictionnaires ;9(03)
-Sciences Humaines;;Histoire;Archéologie ;902
-Sciences Humaines;;Histoire;Préhistoire ;903
-Sciences Humaines;;Géographie;Géographie - Généralités ;91 sauf 910,911,912, 913 à 919
-Sciences Humaines;;Géographie;Géographie - Questions générales ;910
-Sciences Humaines;;Géographie;Géographie générale ;911
-Sciences Humaines;;Géographie;Atlas ;912
-Sciences Humaines;;Géographie;Géographie universelle ;913
-Sciences Humaines;;Géographie;Géographie de l’Europe ;914
-Sciences Humaines;;Géographie;Géographie de l’Asie ;915
-Sciences Humaines;;Géographie;Géographie de l’Afrique ;916
-Sciences Humaines;;Géographie;Géographie de l’Amérique du Nord et centrale ;917
-Sciences Humaines;;Géographie;Géographie de l’Amérique du Sud ;918
-Sciences Humaines;;Géographie;Océanie, régions arctiques et antarctiques ;919
-Sciences Humaines;;Histoire;Généalogie – Héraldique ;929
-Sciences Humaines;;Histoire;Sciences auxiliaires de l’histoire ;930
+Sciences Humaines;;Histoire;Archï¿½ologie ;902
+Sciences Humaines;;Histoire;Prï¿½histoire ;903
+Sciences Humaines;;Gï¿½ographie;Gï¿½ographie - Gï¿½nï¿½ralitï¿½s ;91 sauf 910,911,912, 913 ï¿½ 919
+Sciences Humaines;;Gï¿½ographie;Gï¿½ographie - Questions gï¿½nï¿½rales ;910
+Sciences Humaines;;Gï¿½ographie;Gï¿½ographie gï¿½nï¿½rale ;911
+Sciences Humaines;;Gï¿½ographie;Atlas ;912
+Sciences Humaines;;Gï¿½ographie;Gï¿½ographie universelle ;913
+Sciences Humaines;;Gï¿½ographie;Gï¿½ographie de lï¿½Europe ;914
+Sciences Humaines;;Gï¿½ographie;Gï¿½ographie de lï¿½Asie ;915
+Sciences Humaines;;Gï¿½ographie;Gï¿½ographie de lï¿½Afrique ;916
+Sciences Humaines;;Gï¿½ographie;Gï¿½ographie de lï¿½Amï¿½rique du Nord et centrale ;917
+Sciences Humaines;;Gï¿½ographie;Gï¿½ographie de lï¿½Amï¿½rique du Sud ;918
+Sciences Humaines;;Gï¿½ographie;Ocï¿½anie, rï¿½gions arctiques et antarctiques ;919
+Sciences Humaines;;Histoire;Gï¿½nï¿½alogie ï¿½ Hï¿½raldique ;929
+Sciences Humaines;;Histoire;Sciences auxiliaires de lï¿½histoire ;930
 Sciences Humaines;;Histoire;Histoire ancienne ;931
-Sciences Humaines;;Histoire;Histoire de l’Egypte ancienne ;932
-Sciences Humaines;;Histoire;Histoire de la Judée ;933
-Sciences Humaines;;Histoire;Histoire de l’Inde ancienne;934
-Sciences Humaines;;Histoire;Histoire de Babylone - Assyrie - Mésopotamie - Asie Mineure - Perse ;935
-Sciences Humaines;;Histoire;"Histoire des Pays ""barbares""- Premiers peuples indo-européens ";936
+Sciences Humaines;;Histoire;Histoire de lï¿½Egypte ancienne ;932
+Sciences Humaines;;Histoire;Histoire de la Judï¿½e ;933
+Sciences Humaines;;Histoire;Histoire de lï¿½Inde ancienne;934
+Sciences Humaines;;Histoire;Histoire de Babylone - Assyrie - Mï¿½sopotamie - Asie Mineure - Perse ;935
+Sciences Humaines;;Histoire;"Histoire des Pays ""barbares""- Premiers peuples indo-europï¿½ens ";936
 Sciences Humaines;;Histoire;Histoire romaine ;937
 Sciences Humaines;;Histoire;Histoire grecque ;938
-Sciences Humaines;;Histoire;Histoire ancienne de la Méditerranée et de  l’Asie ;939
-Sciences Humaines;;Histoire;Histoire générale ;94 sauf 940 à 949
-Sciences Humaines;;Histoire;Histoire de l’Europe ;940
-Sciences Humaines;;Histoire;Histoire de l’Écosse - Irlande ;941
-Sciences Humaines;;Histoire;Histoire de l’Angleterre ;942
-Sciences Humaines;;Histoire;Histoire de l’Allemagne ;943
+Sciences Humaines;;Histoire;Histoire ancienne de la Mï¿½diterranï¿½e et de  lï¿½Asie ;939
+Sciences Humaines;;Histoire;Histoire gï¿½nï¿½rale ;94 sauf 940 ï¿½ 949
+Sciences Humaines;;Histoire;Histoire de lï¿½Europe ;940
+Sciences Humaines;;Histoire;Histoire de lï¿½ï¿½cosse - Irlande ;941
+Sciences Humaines;;Histoire;Histoire de lï¿½Angleterre ;942
+Sciences Humaines;;Histoire;Histoire de lï¿½Allemagne ;943
 Sciences Humaines;;Histoire;Histoire de France ;944
-Sciences Humaines;;Histoire;Histoire de l’Italie ;945
-Sciences Humaines;;Histoire;Histoire de la Péninsule ibérique ;946
+Sciences Humaines;;Histoire;Histoire de lï¿½Italie ;945
+Sciences Humaines;;Histoire;Histoire de la Pï¿½ninsule ibï¿½rique ;946
 Sciences Humaines;;Histoire;Histoire de la Russie ;947
-Sciences Humaines;;Histoire;Histoire de l’Europe du Nord ;948 à 949.4
-Sciences Humaines;;Histoire;"Histoire de l’Europe du Sud-Est ; Méditerranée orientale ";949.5 à 949.9
-Sciences Humaines;;Histoire;Histoire de l’Asie ;95
-Sciences Humaines;;Histoire;Histoire de l’Afrique ;96
-Sciences Humaines;;Histoire;Histoire du Continent américain ;970 à 972
+Sciences Humaines;;Histoire;Histoire de lï¿½Europe du Nord ;948 ï¿½ 949.4
+Sciences Humaines;;Histoire;"Histoire de lï¿½Europe du Sud-Est ; Mï¿½diterranï¿½e orientale ";949.5 ï¿½ 949.9
+Sciences Humaines;;Histoire;Histoire de lï¿½Asie ;95
+Sciences Humaines;;Histoire;Histoire de lï¿½Afrique ;96
+Sciences Humaines;;Histoire;Histoire du Continent amï¿½ricain ;970 ï¿½ 972
 Sciences Humaines;;Histoire;Histoire des Etats Unis ;973
-Sciences Humaines;;Histoire;Histoire de l’Amérique Latine ;980
-Sciences Humaines;;Histoire;Histoire de l’Amérique du Sud ;981 à 989
-Sciences Humaines;;Histoire;Histoire de l’Océanie ;990
-Sciences Humaines;;Histoire;Histoire de l’Australie ;994
-Sciences Humaines;;Histoire;Histoire de l’Arctique ;998
-BUlle;;Bandes dessinées;Bandes dessinées ;BD
-Droit - Sciences Po;;Droit;Droit - Généralités / méthodologie ;G sauf Ge, Gf2, Gg
-Droit - Sciences Po;;Droit;Philosophie et théorie du droit ;Ge
-Droit - Sciences Po;;Droit;Droit des pays étrangers ;Gf2
+Sciences Humaines;;Histoire;Histoire de lï¿½Amï¿½rique Latine ;980
+Sciences Humaines;;Histoire;Histoire de lï¿½Amï¿½rique du Sud ;981 ï¿½ 989
+Sciences Humaines;;Histoire;Histoire de lï¿½Ocï¿½anie ;990
+Sciences Humaines;;Histoire;Histoire de lï¿½Australie ;994
+Sciences Humaines;;Histoire;Histoire de lï¿½Arctique ;998
+BUlle;;Bandes dessinï¿½es;Bandes dessinï¿½es ;BD
+Droit - Sciences Po;;Droit;Droit - Gï¿½nï¿½ralitï¿½s / mï¿½thodologie ;G sauf Ge, Gf2, Gg
+Droit - Sciences Po;;Droit;Philosophie et thï¿½orie du droit ;Ge
+Droit - Sciences Po;;Droit;Droit des pays ï¿½trangers ;Gf2
 Droit - Sciences Po;;Droit;Sociologie du droit ;Gg
 Droit - Sciences Po;;Droit;Histoire du droit ;H
-Droit - Sciences Po;;Droit;Droit public, Libertés publiques, Droits de l’homme, Médias ;J sauf Ja, Jb, Jc et Jd
+Droit - Sciences Po;;Droit;Droit public, Libertï¿½s publiques, Droits de lï¿½homme, Mï¿½dias ;J sauf Ja, Jb, Jc et Jd
 Droit - Sciences Po;;Sciences politiques;Sciences politiques ;Ja sauf Ja0, Ja1, Ja2, Ja3 et Ja4
-Droit - Sciences Po;;Sciences politiques;Sciences politiques - Généralités ;Ja0
-Droit - Sciences Po;;Sciences politiques;France : politique, généralités ;Ja1
-Droit - Sciences Po;;Sciences politiques;Politique mondiale, relations internationales ;Ja2
-Droit - Sciences Po;;Sciences politiques;Politique des pays ;Ja3
-Droit - Sciences Po;;Sciences politiques;Politique comparée ;Ja4
+Droit - Sciences Po;;Sciences politiques;Sciences politiques - Gï¿½nï¿½ralitï¿½s ;Ja0
+Droit - Sciences Po;;Sciences politiques;France : politique, gï¿½nï¿½ralitï¿½s ;Ja1
+Droit - Sciences Po;;Sciences politiques;Politique mondiale, relations internationalesï¿½;Ja2
+Droit - Sciences Po;;Sciences politiques;Politique des paysï¿½;Ja3
+Droit - Sciences Po;;Sciences politiques;Politique comparï¿½eï¿½;Ja4
 Droit - Sciences Po;;Droit;Droit constitutionnel ;Jb
 Droit - Sciences Po;;Droit;Droit administratif ;Jc
 Droit - Sciences Po;;Droit;Finances publiques ;Jd
-Droit - Sciences Po;;Droit;Droit privé, Droit judiciaire privé ;K sauf Ka, Kb, Kc, Kd, Ke, Kf, Kg, Kj
+Droit - Sciences Po;;Droit;Droit privï¿½, Droit judiciaire privï¿½ ;K sauf Ka, Kb, Kc, Kd, Ke, Kf, Kg, Kj
 Droit - Sciences Po;;Droit;Droit civil ;Ka1
-Droit - Sciences Po;;Droit;Procédure civile et droit judiciaire privé ;Ka2
-Droit - Sciences Po;;Droit;Droit commercial (affaires, sociétés…) ;Kb
-Droit - Sciences Po;;Droit;Droit du travail et de la sécurité sociale ;Kc
-Droit - Sciences Po;;Droit;Droit maritime, aérien, spatial ;Kd
-Droit - Sciences Po;;Droit;Droit pénal, procédure pénale ;Ke1
+Droit - Sciences Po;;Droit;Procï¿½dure civile et droit judiciaire privï¿½ ;Ka2
+Droit - Sciences Po;;Droit;Droit commercial (affaires, sociï¿½tï¿½sï¿½) ;Kb
+Droit - Sciences Po;;Droit;Droit du travail et de la sï¿½curitï¿½ sociale ;Kc
+Droit - Sciences Po;;Droit;Droit maritime, aï¿½rien, spatial ;Kd
+Droit - Sciences Po;;Droit;Droit pï¿½nal, procï¿½dure pï¿½nale ;Ke1
 Droit - Sciences Po;;Droit;Criminologie ;Ke2
-Droit - Sciences Po;;Droit;Droit de l’économie ;Kf
-Droit - Sciences Po;;Droit;Droit médical ;Kg
-Droit - Sciences Po;;Droit;Droit international - généralités ;Kj sauf Kja, Kjb Kje, Kjn
+Droit - Sciences Po;;Droit;Droit de lï¿½ï¿½conomie ;Kf
+Droit - Sciences Po;;Droit;Droit mï¿½dical ;Kg
+Droit - Sciences Po;;Droit;Droit international - gï¿½nï¿½ralitï¿½s ;Kj sauf Kja, Kjb Kje, Kjn
 Droit - Sciences Po;;Droit;Droit international public ;Kja
-Droit - Sciences Po;;Droit;Droit international privé ;Kjb 
-Droit - Sciences Po;;Droit;Droit européen ;Kje
+Droit - Sciences Po;;Droit;Droit international privï¿½ ;Kjb 
+Droit - Sciences Po;;Droit;Droit europï¿½en ;Kje
 Droit - Sciences Po;;Droit;Droit des organisations internationales ;Kjn
-Economie;;Sciences économiques, gestion;Economie - Généralités ;La
-Economie;;Sciences économiques, gestion;Instruments d’analyse économique ;Lb
-Economie;;Sciences économiques, gestion;Démographie, environnement et espace ;Lc
-Economie;;Sciences économiques, gestion;Economie de l’environnement et de l’espace ;Ld
-Economie;;Sciences économiques, gestion;Histoire, pensée et systèmes économiques ;Le
-Economie;;Sciences économiques, gestion;Systèmes et structures économiques ;Lf
-Economie;;Sciences économiques, gestion;Activités économiques ;Lg
-Economie;;Sciences économiques, gestion;Economie de l’entreprise et gestion ;Lh
-Economie;;Sciences économiques, gestion;Revenus et consommation ;Lk
-Economie;;Sciences économiques, gestion;Monnaie, finances et marchés financiers ;Ll
-Economie;;Sciences économiques, gestion;Croissance économique, fluctuations et développement ;Lm
-Economie;;Sciences économiques, gestion;Economie publique ;Lo
-Economie;;Sciences économiques, gestion;Travail, emploi et économie publique ;Lp
-Economie;;Sciences économiques, gestion;Economie internationale ;Lq
-Economie;;Sciences économiques, gestion;Economie européenne ;Lr
+Economie;;Sciences ï¿½conomiques, gestion;Economie - Gï¿½nï¿½ralitï¿½sï¿½;La
+Economie;;Sciences ï¿½conomiques, gestion;Instruments dï¿½analyse ï¿½conomiqueï¿½;Lb
+Economie;;Sciences ï¿½conomiques, gestion;Dï¿½mographie, environnement et espace ;Lc
+Economie;;Sciences ï¿½conomiques, gestion;Economie de lï¿½environnement et de lï¿½espace ;Ld
+Economie;;Sciences ï¿½conomiques, gestion;Histoire, pensï¿½e et systï¿½mes ï¿½conomiques ;Le
+Economie;;Sciences ï¿½conomiques, gestion;Systï¿½mes et structures ï¿½conomiques ;Lf
+Economie;;Sciences ï¿½conomiques, gestion;Activitï¿½s ï¿½conomiques ;Lg
+Economie;;Sciences ï¿½conomiques, gestion;Economie de lï¿½entreprise et gestion ;Lh
+Economie;;Sciences ï¿½conomiques, gestion;Revenus et consommation ;Lk
+Economie;;Sciences ï¿½conomiques, gestion;Monnaie, finances et marchï¿½s financiers ;Ll
+Economie;;Sciences ï¿½conomiques, gestion;Croissance ï¿½conomique, fluctuations et dï¿½veloppement ;Lm
+Economie;;Sciences ï¿½conomiques, gestion;Economie publique ;Lo
+Economie;;Sciences ï¿½conomiques, gestion;Travail, emploi et ï¿½conomie publique ;Lp
+Economie;;Sciences ï¿½conomiques, gestion;Economie internationale ;Lq
+Economie;;Sciences ï¿½conomiques, gestion;Economie europï¿½enne ;Lr
