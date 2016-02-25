@@ -24,6 +24,16 @@ déployer à partir de notre dépôt GitHub ainsi qu’une documentation de cett
 notre référent afin qu’il puisse la maintenir.
 </p>
 
+Regroupement des documents à voir :
+- Le prototype de départ : https://github.com/Miage-Paris-Ouest/m1c20152016-planinteractifbu/blob/master/Documents/Prototypes.md
+- La vidéo du prototype de départ : https://github.com/Miage-Paris-Ouest/m1c20152016-planinteractifbu/tree/master/Documents/Prototype
+- Les contraintes de l'application : https://github.com/Miage-Paris-Ouest/m1c20152016-planinteractifbu/blob/master/Documents/Contraintes
+- Les spécificités techniques : https://github.com/Miage-Paris-Ouest/m1c20152016-planinteractifbu/blob/master/Documents/Tech.md
+- La présentation de fin de projet : https://github.com/Miage-Paris-Ouest/m1c20152016-planinteractifbu/blob/master/Documents/Présentation.pdf
+<p>
+
+</p>
+
 <img src="https://raw.githubusercontent.com/Mohamed-MIAGE/UseCaseBU/master/Documents/img/UseCaseBU%20-%20Dark.png"/>
 
 <p>
