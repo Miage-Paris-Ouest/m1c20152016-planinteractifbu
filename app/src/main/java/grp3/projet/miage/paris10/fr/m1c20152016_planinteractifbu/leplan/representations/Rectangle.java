@@ -9,7 +9,7 @@ public class Rectangle {
     private float largeurContour;
     private int couleurContour;
 
-    public Rectangle(int x, int y, int l, int h, int color, int largeurContour, int couleurContour) {
+    public Rectangle(int x, int y, int l, int h, int color, float largeurContour, int couleurContour) {
         bounds = new Rect(x, y, x + l, y + h);
         paint = new Paint();
         paint.setColor(color);
