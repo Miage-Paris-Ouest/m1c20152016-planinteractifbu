@@ -5,7 +5,6 @@ import android.graphics.Color;
 import android.os.Bundle;
 
 import java.io.InputStream;
-import java.util.List;
 
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.R;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.Bibliotheque;

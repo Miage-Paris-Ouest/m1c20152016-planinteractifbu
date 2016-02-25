@@ -27,6 +27,10 @@
             android:label="@string/layout_plan_image"
             android:theme="@style/AppTheme">
         </activity>
+        <activity android:name=".csvreader.AfficherCSV"
+            android:label="@string/affiche_csv"
+            android:theme="@style/AppTheme">
+        </activity>
     </application>
 
 </manifest>

@@ -1,0 +1,316 @@
+SALLE;ETAGERE;SECTEUR / discipline;SOUS- DISCIPLINE;COTE
+Sciences Sociales;Etagere test AB ;Sciences de l�information;Ecrits - Edition - Audiovisuel ;00
+Sciences Sociales;;Sciences de l�information;Biblioth�conomie ;02
+Plusieurs;;Usuels - Encyclop�dies et dictionnaires ;Usuels - Encyclop�dies et dictionnaires ;03
+Economie;;G�n�ralit�s;G�n�ralit�s, g�r�es par le Droit ;04
+Sciences Sociales;;Sciences de l�information;Presse et information ;07 sauf 074, 079
+Sciences Sociales;;Sciences de l�information;Diff�rentes cat�gories de presse ;074
+Sciences Sociales;;Sciences de l�information;Les journalistes ;079
+Sciences Humaines;;Philosophie;Philosophie - G�n�ralit�s / Philosophes ;1 sauf 10 � 17
+Sciences Humaines;;Philosophie;Domaines, m�thodes de la philosophie ;101
+Sciences Humaines;;Philosophie;M�taphysique ;11 sauf 111, 113, 115
+Sciences Humaines;;Philosophie;Ontologie ;111
+Sciences Humaines;;Philosophie;Philisophie de la nature ;113
+Sciences Humaines;;Philosophie;Philisophie du temps;115
+Sciences Humaines;;Philosophie;Causalit� ;122
+Sciences Humaines;;Philosophie;Libert� ;123
+Sciences Humaines;;Philosophie;Philosophie de la valeur ;124
+Sciences Humaines;;Philosophie;Vie et mort ;128
+Sciences Humaines;;Philosophie;Philosophie de l�esprit, de l�action, politique, de la culture ;13
+Sciences Humaines;;Philosophie;Syst�mes philosophiques ;141
+Sciences Sociales;;Psychologie;Psychologie - G�n�ralit�s ;15 sauf 159.9
+Sciences Sociales;;Psychologie;Psychologie clinique - ouvrages g�n�raux ;159.9 sauf 159.91 � 159.97
+Sciences Sociales;;Psychologie;Psychophysiologie ;159.91
+Sciences Sociales;;Psychologie;Psychologie diff�rentielle ;159.92 sauf 159.922 � 159.929
+Sciences Sociales;;Psychologie;Conscience ;159.922
+Sciences Sociales;;Psychologie;Personnalit�, caract�re ;159.923 � 159.929
+Sciences Sociales;;Psychologie;Perception ;159.93
+Sciences Sociales;;Psychologie;Communication non verbale ;159.942, 159.943, 159.946, 159.947
+Sciences Sociales;;Psychologie;Cognition, intelligence ;159.95 sauf 159.952 � 159.955
+Sciences Sociales;;Psychologie;Attention ;159.952 � 159.955
+Sciences Sociales;;Psychologie;Etats modifi�s de la conscience ;159.961 � 159.963
+Sciences Sociales;;Psychologie;Psychanalyse ;159.964
+Sciences Sociales;;Psychologie;Psychopathologie ;159.97
+Sciences Humaines;;Philosophie;Logique ;16
+Sciences Humaines;;Philosophie;Morale ;17
+Sciences Humaines;;Religion;Religion - G�n�ralit�s ;2 sauf 21 � 29
+Sciences Humaines;;Religion;Philosophie et th�orie de la religion ;21
+Sciences Humaines;;Religion;Bible;22
+Sciences Humaines;;Religion;Th�ologie dogmatique;23
+Sciences Humaines;;Religion;Th�ologie morale ;24
+Sciences Humaines;;Religion;Th�ologie pastorale ;25
+Sciences Humaines;;Religion;Eglise chr�tienne ;26
+Sciences Humaines;;Religion;Histoire g�n�rale de l�Eglise chr�tienne ;27
+Sciences Humaines;;Religion;Diff�rentes �glises chr�tiennes ;28
+Sciences Humaines;;Religion;Religions non chr�tiennes - g�n�ralit�s ;29 sauf 292,294,296 , 297 et 299
+Sciences Humaines;;Religion;Religion des Grecs et des Romains ;292
+Sciences Humaines;;Religion;Hindouisme, Bouddhisme ;294
+Sciences Humaines;;Religion;Juda�sme ;296
+Sciences Humaines;;Religion;Islam ;297
+Sciences Humaines;;Religion;Autres religions ;299
+Sciences Sociales;;Sociologie;Sociologie - G�n�ralit�s ;3 sauf 30, 31, 33 et 37
+Sciences Sociales;;Ethnologie;Ethnologie ;30 sauf 301, 304 et 308
+Sciences Sociales;;Sociologie;Sociologie g�n�rale ;301 sauf 301.15,301.16,301.17, 301.185, 301.187, 301.188, 301.199
+Sciences Sociales;;Psychologie sociale;Psychologie sociale ;301.15
+Sciences Sociales;;Psychologie sociale;Dynamique des groupes, travail ;301.16
+Sciences Sociales;;Sociologie;Cultures et civilisations ;301.17
+Sciences Sociales;;Sociologie;Groupes sociaux - Classes sociales ;301.185
+Sciences Sociales;;Sociologie;Stratification sociale ;301.187
+Sciences Sociales;;Sociologie;Sociologie par grands domaines ;301.188
+Sciences Sociales;;Sociologie;Sociologues, Anthropologues ;301.199
+Sciences Sociales;;Sociologie;Probl�mes sociaux. Travail social ;304
+Sciences Sociales;;Sociologie;M�moires. R�cits personnels ;308
+Sciences Sociales;;Sociologie;D�mographie ;314
+Sciences Sociales;;Sociologie;Socialisme ;335
+Sciences Sociales;;Sciences de l��ducation;Sciences de l��ducation - G�n�ralit� ;37 sauf 371 � 374,376 � 379
+Sciences Sociales;;Sciences de l��ducation;Organisation des syst�mes d�enseignement ;371
+Sciences Sociales;;Sciences de l��ducation;Didactique ;372
+Sciences Sociales;;Sciences de l��ducation;Syst�mes �ducatifs et scolaires ;373
+Sciences Sociales;;Sciences de l��ducation;Formation continue ;374
+Sciences Sociales;;Sciences de l��ducation;Education sp�cialis�e ;376
+Sciences Sociales;;Sciences de l��ducation;Enseignement technique et professionnel ;377
+Sciences Sociales;;Sciences de l��ducation;Histoire des universit�s ;378
+Sciences Sociales;;Sport;Sport ;379.9
+Sciences Sociales;;Histoire des sciences;Sciences - G�n�ralit�s ;5 sauf 50 � 59
+Sciences Sociales;;Histoire des sciences;Sciences environnementales ;502
+Economie;;Math�matiques;Math�matiques ;51
+Sciences Sociales;;Histoire des sciences;Astronomie, cosmologie, astrophysique, astrochimie ;52
+Sciences Sociales;;Histoire des sciences;Physique ;53
+Sciences Sociales;;Histoire des sciences;Chimie ;54 sauf 549
+Sciences Sociales;;Histoire des sciences;Min�ralogie ;549
+Sciences Sociales;;Histoire des sciences;Pal�ontologie, dinosaures ;56 sauf 569
+Sciences Sociales;;Histoire des sciences;Pal�ontologie humaine ;569
+Sciences Sociales;;Histoire des sciences;Biologie g�n�rale ;57
+Sciences Sociales;;Histoire des sciences;Botanique ;58
+Sciences Sociales;;Histoire des sciences;Biologie animale ;59
+Sciences Sociales;;Histoire des sciences;Philosophie-histoire des techniques ;6 sauf 61, 681
+Sciences Sociales;;M�decine;M�decine - G�n�ralit�s ;61 sauf 611 � 618
+Sciences Sociales;;M�decine;Anatomie ;611
+Sciences Sociales;;M�decine;Physiologie et biologie ;612
+Sciences Sociales;;M�decine;Sant� et hygi�ne ;613
+Sciences Sociales;;M�decine;Sant� et hygi�ne publique ;614
+Sciences Sociales;;M�decine;Pharmacologie, psychotropes ;615 sauf 615.851
+Sciences Sociales;;M�decine;Psychot�rapie ;615.851
+Sciences Sociales;;M�decine;Pathologie, m�decine clinique ;616 sauf 616.89
+Sciences Sociales;;M�decine;Psychiatrie ;616.89
+Sciences Sociales;;M�decine;Chirurgie ;617
+Sciences Sociales;;M�decine;Gyn�cologie, obstetrique, m�nopause ;618
+Economie;;Informatique;Informatique ;681
+Sciences Humaines;;Beaux-Arts;Art en g�n�ral ;7 sauf 71, 72, 73, 74, 75, 76, 77, 78, 79
+Sciences Humaines;;Urbanisme;Urbanisme ;71 sauf 712
+Sciences Humaines;;Beaux-Arts;Art des jardins ;712
+Sciences Humaines;;Beaux-Arts;Architecture ;72 sauf 725, 726, 727, 728, 729
+Sciences Humaines;;Beaux-Arts;B�timents publics, civils, commerciaux et industriels ;725
+Sciences Humaines;;Beaux-Arts;Architecture religieuse ;726
+Sciences Humaines;;Beaux-Arts;Architecture des b�timents culturels ;727
+Sciences Humaines;;Beaux-Arts;Architecture domestique ;728
+Sciences Humaines;;Beaux-Arts;D�coration des b�timents ;729
+Sciences Humaines;;Beaux-Arts;Sculpture ;73 sauf 737,738,739
+Sciences Humaines;;Beaux-Arts;Numismatique ;737
+Sciences Humaines;;Beaux-Arts;C�ramique d�art ;738
+Sciences Humaines;;Beaux-Arts;Arts du m�tal ;739
+Sciences Humaines;;Beaux-Arts;Dessin et m�tiers d�art ;74 sauf 741, 746, 747, 748, 749
+Sciences Humaines;;Beaux-Arts;Dessin satirique - Caricature ;741
+Sciences Humaines;;Beaux-Arts;Travaux d�aiguilles ;746
+Sciences Humaines;;Beaux-Arts;Architecture int�rieure ;747
+Sciences Humaines;;Beaux-Arts;Verrerie ;748
+Sciences Humaines;;Beaux-Arts;Mobilier d�art ;749
+Sciences Humaines;;Beaux-Arts;Peinture ;75 sauf 753, 755, 757, 758
+Sciences Humaines;;Beaux-Arts;Genres picturaux;753 � 758
+Sciences Humaines;;Beaux-Arts;Arts graphiques ;76
+Sciences Humaines;;Beaux-Arts;Photographie ;77
+Sciences Humaines;;Arts du spectacle;Musique ;78 sauf 781 � 789
+Sciences Humaines;;Arts du spectacle;Genres musicaux ;781 � 789
+Sciences Humaines;;Arts du spectacle;Cin�ma ;791
+Sciences Humaines;;Arts du spectacle;Th��tre ;792
+Langues et Litt�ratures;;Linguistique;Linguistique g�n�rale ;80 sauf 800 a 809
+Langues et Litt�ratures;;Linguistique;Ouvrages g�n�raux sur le langage ;800
+Langues et Litt�ratures;;Linguistique;Linguistique - ouvrages g�n�raux ;801
+Langues et Litt�ratures;;Langues et litt�ratures anglo-am�ricaines;Langue anglaise ;802 sauf 802.0(73)
+Langues et Litt�ratures;;Langues et litt�ratures anglo-am�ricaines;Langue am�ricaine ;802.0(73)
+Langues et Litt�ratures;;Langues et litt�ratures germaniques;Langue allemande ;803 sauf 803.9
+Langues et Litt�ratures;;Langues et litt�ratures germaniques;Langues germaniques autres que l�allemand ;803.9
+Langues et Litt�ratures;;Langue et litt�rature fran�aise;Langue fran�aise ;804 sauf 804.99
+Langues et Litt�ratures;;Langues et litt�ratures hispaniques;Langue catalane ;804.99
+Langues et Litt�ratures;;Langue et litt�rature italienne;Langue italienne ;805 sauf 805.90
+Langues et Litt�ratures;;Langue et litt�rature roumaine;Linguistique roumaine ;805.90
+Langues et Litt�ratures;;Langues et litt�ratures hispaniques;Langue espagnole ;806.0 sauf 806.0(8)
+Langues et Litt�ratures;;Langues et litt�ratures hispaniques;Langue hispano-am�ricaine ;806.0(8)
+Langues et Litt�ratures;;Langues et litt�ratures lusophones;Langue portugaise ;806.90
+Langues et Litt�ratures;;Langues et litt�ratures hispaniques;Langue galicienne ;806.99
+Langues et Litt�ratures;;Latin Grec;Langues classiques en g�n�ral ou compar�es ;807.0
+Langues et Litt�ratures;;Latin Grec;Latin classique (langue) ;807.1
+Langues et Litt�ratures;;Latin Grec;Langues italiques ;807.2
+Langues et Litt�ratures;;Latin Grec;Latin non classique ;807.3
+Langues et Litt�ratures;;Latin Grec;Langue grecque classique ;807.5
+Langues et Litt�ratures;;Latin Grec;Dialectes grecs ;807.6
+Langues et Litt�ratures;;Latin Grec;Langue Grecque non classique ;807.7
+Langues et Litt�ratures;;Langues et litt�ratures orientales;Langues slaves ;808.1
+Langues et Litt�ratures;;Langues et litt�ratures orientales;Langue russe ;808.2
+Langues et Litt�ratures;;Langues et litt�ratures orientales;Langues d�Europe de l�Est ;808.3 � 808.5
+Langues et Litt�ratures;;Langues et litt�ratures orientales;Langue serbo-croate ;808.6 sauf 808.67
+Langues et Litt�ratures;;Langues et litt�ratures orientales;Langue bulgare ;808.67
+Langues et Litt�ratures;;Latin Grec;Dialectes pr�-italiques ;809.19
+Langues et Litt�ratures;;Langues et litt�ratures orientales;Langues orientales ;809
+Langues et Litt�ratures;;Litt�rature g�n�rale;Litt�rature g�n�rale ;82 sauf 820
+Langues et Litt�ratures;;Langues et litt�ratures anglo-am�ricaines;Litt�rature anglaise ;820 sauf 820(4, 820(5, 820(6, 820(7, 820(9
+;;;Litt�rature anglaise ;"820""14"""
+;;;Litt�rature anglaise ;"820""15"""
+;;;Litt�rature anglaise ;"820""16"""
+;;;Litt�rature anglaise ;"820""17"""
+;;;Litt�rature anglaise ;"820""18"""
+;;;Litt�rature anglaise ;"820""19"""
+;;;Litt�rature anglaise ;"820""20"""
+Langues et Litt�ratures;;Langues et litt�ratures anglo-am�ricaines;Litt�rature du Commonwealth ;820(41-44)
+Langues et Litt�ratures;;Langues et litt�ratures anglo-am�ricaines;Litt�rature irlandaise ;820(417)
+Langues et Litt�ratures;;Langues et litt�ratures anglo-am�ricaines;Litt�rature anglaise de l�Inde ;820(54)
+Langues et Litt�ratures;;Langues et litt�ratures anglo-am�ricaines;Litt�rature africaine de langue anglaise ;820(6)
+Langues et Litt�ratures;;Langues et litt�ratures anglo-am�ricaines;Litt�rature canadienne ;820(71)
+Langues et Litt�ratures;;Langues et litt�ratures anglo-am�ricaines;Litt�rature anglaise des Cara�bes ;820(729.7/8)
+Langues et Litt�ratures;;Langues et litt�ratures anglo-am�ricaines;Litt�rature am�ricaine ;820(73)
+;;;Litt�rature am�ricaine ;"820(73)""14"""
+;;;Litt�rature am�ricaine ;"820(73)""15"""
+;;;Litt�rature am�ricaine ;"820(73)""16"""
+;;;Litt�rature am�ricaine ;"820(73)""17"""
+;;;Litt�rature am�ricaine ;"820(73)""18"""
+;;;Litt�rature am�ricaine ;"820(73)""19"""
+;;;Litt�rature am�ricaine ;"820(73)""20"""
+Langues et Litt�ratures;;Langues et litt�ratures anglo-am�ricaines;Litt�rature anglaise de Nouvelle-Z�lande ;820(931)
+Langues et Litt�ratures;;Langues et litt�ratures anglo-am�ricaines;Litt�rature anglaise d�Australie ;820(94)
+Langues et Litt�ratures;;Langues et litt�ratures germaniques;Litt�rature allemande ;830
+;;;Litt�rature allemande ;"830""14"""
+;;;Litt�rature allemande ;"830""15"""
+;;;Litt�rature allemande ;"830""16"""
+;;;Litt�rature allemande ;"830""17"""
+;;;Litt�rature allemande ;"830""18"""
+;;;Litt�rature allemande ;"830""19"""
+;;;Litt�rature allemande ;"830""20"""
+Langues et Litt�ratures;;Langues et litt�ratures germaniques;Litt�ratures germaniques autres que l�allemand ;839
+Langues et Litt�ratures;;Langue et litt�rature fran�aise;Litt�rature fran�aise ;840
+Langues et Litt�ratures;;Langue et litt�rature fran�aise;Litt�rature fran�aise ;"840""14"""
+Langues et Litt�ratures;;Langue et litt�rature fran�aise;Litt�rature fran�aise ;"840""15"""
+Langues et Litt�ratures;;Langue et litt�rature fran�aise;Litt�rature fran�aise ;"840""16"""
+Langues et Litt�ratures;;Langue et litt�rature fran�aise;Litt�rature fran�aise ;"840""17"""
+Langues et Litt�ratures;;Langue et litt�rature fran�aise;Litt�rature fran�aise ;"840""18"""
+Langues et Litt�ratures;;Langue et litt�rature fran�aise;Litt�rature fran�aise ;"840""19"""
+Langues et Litt�ratures;;Langue et litt�rature fran�aise;Litt�rature fran�aise ;"840""20"""
+Langues et Litt�ratures;;Langues et litt�ratures hispaniques;Litt�rature catalane ;849.9
+Langues et Litt�ratures;;Langue et litt�rature italienne;Litt�rature italienne ;850
+Langues et Litt�ratures;;Langue et litt�rature roumaine;Litt�rature roumaine ;859
+Langues et Litt�ratures;;Langues et litt�ratures hispaniques;Litt�rature espagnole ;860 sauf 860(8)
+;;;Litt�rature espagnole ;"860""14"""
+;;;Litt�rature espagnole ;"860""15"""
+;;;Litt�rature espagnole ;"860""16"""
+;;;Litt�rature espagnole ;"860""17"""
+;;;Litt�rature espagnole ;"860""18"""
+;;;Litt�rature espagnole ;"860""19"""
+;;;Litt�rature espagnole ;"860""20"""
+Langues et Litt�ratures;;Langues et litt�ratures hispaniques;Litt�rature hispano-am�ricaine ;860(8)
+Langues et Litt�ratures;;Langues et litt�ratures lusophones;Litt�rature portugaise ;869.0 sauf 869.0(6) et 869.0(8)
+Langues et Litt�ratures;;Langues et litt�ratures lusophones;Litt�rature africaine de langue portugaise ;869.0(6)
+Langues et Litt�ratures;;Langues et litt�ratures lusophones;Litt�rature br�silienne ;869.0(8)
+Langues et Litt�ratures;;Langues et litt�ratures hispaniques;Litt�rature galicienne ;869.90
+Langues et Litt�ratures;;Latin Grec;Litt�ratures classiques en g�n�ral ou compar�es ;870
+Langues et Litt�ratures;;Latin Grec;Litt�rature latine classique ;871
+Langues et Litt�ratures;;Latin Grec;Litt�rature latine m�di�vale ;873.3
+Langues et Litt�ratures;;Latin Grec;Litt�rature grecque classique ;875
+Langues et Litt�ratures;;Latin Grec;Litt�rature grecque byzantine ;877.3
+Langues et Litt�ratures;;Latin Grec;Litt�rature grecque moderne ;877.4
+Langues et Litt�ratures;;Langues et litt�ratures orientales;Litt�rature slave en g�n�ral ;88 sauf 882, 883, 884, 885, 886, 887, 888
+Langues et Litt�ratures;;Langues et litt�ratures orientales;Litt�rature russe ;882 sauf 882.6
+Langues et Litt�ratures;;Langues et litt�ratures orientales;Litt�rature bi�lo-russe ;882.6
+Langues et Litt�ratures;;Langues et litt�ratures orientales;Litt�rature d�Europe de l�Est ;883 � 885
+Langues et Litt�ratures;;Langues et litt�ratures orientales;Litt�rature serbo-croate ;886 sauf 886.7
+Langues et Litt�ratures;;Langues et litt�ratures orientales;Litt�rature bulgare ;886.7
+Langues et Litt�ratures;;Langues et litt�ratures orientales;Litt�ratures orientales ;891 � 895
+Sciences Humaines;;Histoire;Histoire - dictionnaires ;9(03)
+Sciences Humaines;;Histoire;Arch�ologie ;902
+Sciences Humaines;;Histoire;Pr�histoire ;903
+Sciences Humaines;;G�ographie;G�ographie - G�n�ralit�s ;91 sauf 910,911,912, 913 � 919
+Sciences Humaines;;G�ographie;G�ographie - Questions g�n�rales ;910
+Sciences Humaines;;G�ographie;G�ographie g�n�rale ;911
+Sciences Humaines;;G�ographie;Atlas ;912
+Sciences Humaines;;G�ographie;G�ographie universelle ;913
+Sciences Humaines;;G�ographie;G�ographie de l�Europe ;914
+Sciences Humaines;;G�ographie;G�ographie de l�Asie ;915
+Sciences Humaines;;G�ographie;G�ographie de l�Afrique ;916
+Sciences Humaines;;G�ographie;G�ographie de l�Am�rique du Nord et centrale ;917
+Sciences Humaines;;G�ographie;G�ographie de l�Am�rique du Sud ;918
+Sciences Humaines;;G�ographie;Oc�anie, r�gions arctiques et antarctiques ;919
+Sciences Humaines;;Histoire;G�n�alogie � H�raldique ;929
+Sciences Humaines;;Histoire;Sciences auxiliaires de l�histoire ;930
+Sciences Humaines;;Histoire;Histoire ancienne ;931
+Sciences Humaines;;Histoire;Histoire de l�Egypte ancienne ;932
+Sciences Humaines;;Histoire;Histoire de la Jud�e ;933
+Sciences Humaines;;Histoire;Histoire de l�Inde ancienne;934
+Sciences Humaines;;Histoire;Histoire de Babylone - Assyrie - M�sopotamie - Asie Mineure - Perse ;935
+Sciences Humaines;;Histoire;"Histoire des Pays ""barbares""- Premiers peuples indo-europ�ens ";936
+Sciences Humaines;;Histoire;Histoire romaine ;937
+Sciences Humaines;;Histoire;Histoire grecque ;938
+Sciences Humaines;;Histoire;Histoire ancienne de la M�diterran�e et de  l�Asie ;939
+Sciences Humaines;;Histoire;Histoire g�n�rale ;94 sauf 940 � 949
+Sciences Humaines;;Histoire;Histoire de l�Europe ;940
+Sciences Humaines;;Histoire;Histoire de l��cosse - Irlande ;941
+Sciences Humaines;;Histoire;Histoire de l�Angleterre ;942
+Sciences Humaines;;Histoire;Histoire de l�Allemagne ;943
+Sciences Humaines;;Histoire;Histoire de France ;944
+Sciences Humaines;;Histoire;Histoire de l�Italie ;945
+Sciences Humaines;;Histoire;Histoire de la P�ninsule ib�rique ;946
+Sciences Humaines;;Histoire;Histoire de la Russie ;947
+Sciences Humaines;;Histoire;Histoire de l�Europe du Nord ;948 � 949.4
+Sciences Humaines;;Histoire;"Histoire de l�Europe du Sud-Est ; M�diterran�e orientale ";949.5 � 949.9
+Sciences Humaines;;Histoire;Histoire de l�Asie ;95
+Sciences Humaines;;Histoire;Histoire de l�Afrique ;96
+Sciences Humaines;;Histoire;Histoire du Continent am�ricain ;970 � 972
+Sciences Humaines;;Histoire;Histoire des Etats Unis ;973
+Sciences Humaines;;Histoire;Histoire de l�Am�rique Latine ;980
+Sciences Humaines;;Histoire;Histoire de l�Am�rique du Sud ;981 � 989
+Sciences Humaines;;Histoire;Histoire de l�Oc�anie ;990
+Sciences Humaines;;Histoire;Histoire de l�Australie ;994
+Sciences Humaines;;Histoire;Histoire de l�Arctique ;998
+BUlle;;Bandes dessin�es;Bandes dessin�es ;BD
+Droit - Sciences Po;;Droit;Droit - G�n�ralit�s / m�thodologie ;G sauf Ge, Gf2, Gg
+Droit - Sciences Po;;Droit;Philosophie et th�orie du droit ;Ge
+Droit - Sciences Po;;Droit;Droit des pays �trangers ;Gf2
+Droit - Sciences Po;;Droit;Sociologie du droit ;Gg
+Droit - Sciences Po;;Droit;Histoire du droit ;H
+Droit - Sciences Po;;Droit;Droit public, Libert�s publiques, Droits de l�homme, M�dias ;J sauf Ja, Jb, Jc et Jd
+Droit - Sciences Po;;Sciences politiques;Sciences politiques ;Ja sauf Ja0, Ja1, Ja2, Ja3 et Ja4
+Droit - Sciences Po;;Sciences politiques;Sciences politiques - G�n�ralit�s ;Ja0
+Droit - Sciences Po;;Sciences politiques;France : politique, g�n�ralit�s ;Ja1
+Droit - Sciences Po;;Sciences politiques;Politique mondiale, relations internationales�;Ja2
+Droit - Sciences Po;;Sciences politiques;Politique des pays�;Ja3
+Droit - Sciences Po;;Sciences politiques;Politique compar�e�;Ja4
+Droit - Sciences Po;;Droit;Droit constitutionnel ;Jb
+Droit - Sciences Po;;Droit;Droit administratif ;Jc
+Droit - Sciences Po;;Droit;Finances publiques ;Jd
+Droit - Sciences Po;;Droit;Droit priv�, Droit judiciaire priv� ;K sauf Ka, Kb, Kc, Kd, Ke, Kf, Kg, Kj
+Droit - Sciences Po;;Droit;Droit civil ;Ka1
+Droit - Sciences Po;;Droit;Proc�dure civile et droit judiciaire priv� ;Ka2
+Droit - Sciences Po;;Droit;Droit commercial (affaires, soci�t�s�) ;Kb
+Droit - Sciences Po;;Droit;Droit du travail et de la s�curit� sociale ;Kc
+Droit - Sciences Po;;Droit;Droit maritime, a�rien, spatial ;Kd
+Droit - Sciences Po;;Droit;Droit p�nal, proc�dure p�nale ;Ke1
+Droit - Sciences Po;;Droit;Criminologie ;Ke2
+Droit - Sciences Po;;Droit;Droit de l��conomie ;Kf
+Droit - Sciences Po;;Droit;Droit m�dical ;Kg
+Droit - Sciences Po;;Droit;Droit international - g�n�ralit�s ;Kj sauf Kja, Kjb Kje, Kjn
+Droit - Sciences Po;;Droit;Droit international public ;Kja
+Droit - Sciences Po;;Droit;Droit international priv� ;Kjb 
+Droit - Sciences Po;;Droit;Droit europ�en ;Kje
+Droit - Sciences Po;;Droit;Droit des organisations internationales ;Kjn
+Economie;;Sciences �conomiques, gestion;Economie - G�n�ralit�s�;La
+Economie;;Sciences �conomiques, gestion;Instruments d�analyse �conomique�;Lb
+Economie;;Sciences �conomiques, gestion;D�mographie, environnement et espace ;Lc
+Economie;;Sciences �conomiques, gestion;Economie de l�environnement et de l�espace ;Ld
+Economie;;Sciences �conomiques, gestion;Histoire, pens�e et syst�mes �conomiques ;Le
+Economie;;Sciences �conomiques, gestion;Syst�mes et structures �conomiques ;Lf
+Economie;;Sciences �conomiques, gestion;Activit�s �conomiques ;Lg
+Economie;;Sciences �conomiques, gestion;Economie de l�entreprise et gestion ;Lh
+Economie;;Sciences �conomiques, gestion;Revenus et consommation ;Lk
+Economie;;Sciences �conomiques, gestion;Monnaie, finances et march�s financiers ;Ll
+Economie;;Sciences �conomiques, gestion;Croissance �conomique, fluctuations et d�veloppement ;Lm
+Economie;;Sciences �conomiques, gestion;Economie publique ;Lo
+Economie;;Sciences �conomiques, gestion;Travail, emploi et �conomie publique ;Lp
+Economie;;Sciences �conomiques, gestion;Economie internationale ;Lq
+Economie;;Sciences �conomiques, gestion;Economie europ�enne ;Lr
