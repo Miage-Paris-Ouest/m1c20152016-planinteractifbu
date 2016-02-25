@@ -6,15 +6,15 @@ import android.graphics.Rect;
 public class Rectangle {
     private Rect bounds;
     private Paint paint;
-    private float borderWidth;
-    private int borderColor;
+    private float largeurContour;
+    private int couleurContour;
 
-    public Rectangle(int left, int top, int right, int bottom, int color, float borderWidth, int borderColor) {
-        bounds = new Rect(left, top, right, bottom);
+    public Rectangle(int x, int y, int l, int h, int color, int largeurContour, int couleurContour) {
+        bounds = new Rect(x, y, x + l, y + h);
         paint = new Paint();
         paint.setColor(color);
-        this.borderWidth = borderWidth;
-        this.borderColor = borderColor;
+        this.largeurContour = largeurContour;
+        this.couleurContour = couleurContour;
     }
 
     public Rect getBounds() {
@@ -26,11 +26,11 @@ public class Rectangle {
     }
 
     public float getBorderWidth() {
-        return borderWidth;
+        return largeurContour;
     }
 
     public int getBorderColor() {
-        return borderColor;
+        return couleurContour;
     }
 
     public void setBounds(Rect bounds) {
