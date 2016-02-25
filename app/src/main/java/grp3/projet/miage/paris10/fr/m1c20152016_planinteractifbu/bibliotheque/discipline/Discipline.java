@@ -4,20 +4,16 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Discipline {
-    private EnumDiscipline discipline;
+    private String nom;
     private Set<SousDiscipline> sousDisciplines;
 
-    public Discipline(EnumDiscipline discipline) {
-        this.discipline = discipline;
+    public Discipline(String nom) {
+        this.nom = nom;
         sousDisciplines = new HashSet<>();
     }
 
-    public EnumDiscipline getDiscipline() {
-        return discipline;
-    }
-
-    public Set<SousDiscipline> getSousDisciplines() {
-        return sousDisciplines;
+    public String getNom() {
+        return nom;
     }
 
     public void addSousDiscipline(SousDiscipline sousDiscipline) {
