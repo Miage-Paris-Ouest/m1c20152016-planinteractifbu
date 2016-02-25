@@ -22,7 +22,6 @@ Afin de réaliser au mieux ce projet, il est important d’avoir certaines comp�
 #Modélisation des données
 
 #Architectures (diagramme de classe)
-<h1>Diagramme de Classe De l'Application</h1>
 
 <p>
   Ci-après le diagramme de classe du "squelette" de l'application, c'est-à-dire les classes nécessaires à l'implémentation de 
