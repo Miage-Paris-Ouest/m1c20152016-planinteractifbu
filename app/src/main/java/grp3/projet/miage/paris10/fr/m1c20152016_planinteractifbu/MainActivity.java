@@ -2,6 +2,7 @@ package grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -10,12 +11,21 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ListView;
 
+import java.io.InputStream;
+import java.util.List;
+
+import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.csvreader.CSVFile;
+import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.csvreader.ItemArrayAdapter;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.leplan.PlanActivity;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.leplan.PlanImage;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+    private ListView listView;
+    private ItemArrayAdapter itemArrayAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -80,12 +90,26 @@ public class MainActivity extends AppCompatActivity
            Intent it_plan_inter = new Intent(MainActivity.this, PlanActivity.class);
            startActivity(it_plan_inter);
        } else if (id == R.id.nav_cote){
+           setContentView(R.layout.test_layout);
+           listView = (ListView) findViewById(R.id.listView);
+           itemArrayAdapter = new ItemArrayAdapter(getApplicationContext(), R.layout.item_layout);
 
+           Parcelable state = listView.onSaveInstanceState();
+           listView.setAdapter(itemArrayAdapter);
+           listView.onRestoreInstanceState(state);
+
+           InputStream inputStream = getResources().openRawResource(R.raw.livres);
+           CSVFile csvFile = new CSVFile(inputStream);
+           List<String[]> scoreList = csvFile.read();
+
+           for(String[] scoreData:scoreList ) {
+               itemArrayAdapter.add(scoreData);
+           }
        } else if (id == R.id.nav_dis) {
 
        }
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
+        /*DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);*/
         return true;
     }
 }
