@@ -7,10 +7,12 @@ import java.util.NoSuchElementException;
 import java.util.Set;
 
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.cote.Etagere;
+import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.cote.RacineCote;
 
 public class SousDiscipline implements Comparable {
     private String nom;
     private Set<Etagere> etageres;
+    private RacineCote racine;
 
     public SousDiscipline(String nom) {
         this.nom = nom;
@@ -55,5 +57,13 @@ public class SousDiscipline implements Comparable {
 
     public void setEtageres(Set<Etagere> etageres) {
         this.etageres = etageres;
+    }
+
+    public RacineCote getRacine() {
+        return racine;
+    }
+
+    public void setRacine(RacineCote racine) {
+        this.racine = racine;
     }
 }

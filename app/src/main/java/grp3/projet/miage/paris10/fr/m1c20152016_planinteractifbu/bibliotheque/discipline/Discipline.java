@@ -12,7 +12,7 @@ import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.co
 
 public class Discipline implements Comparable {
     private String nom;
-    private SortedSet<SousDiscipline> sousDisciplines;
+    private Set<SousDiscipline> sousDisciplines;
 
     public Discipline(String nom) {
         this.nom = nom;
@@ -47,7 +47,7 @@ public class Discipline implements Comparable {
         throw new NoSuchElementException("La sous-discipline specifiee ne fait pas partie de cette discipline.");
     }
 
-    public SortedSet<SousDiscipline> getSousDisciplines() {
+    public Set<SousDiscipline> getSousDisciplines() {
         return sousDisciplines;
     }
 
