@@ -13,9 +13,16 @@ import java.util.List;
 
 public class CSVFile {
     InputStream inputStream;
+    String separator;
 
     public CSVFile(InputStream inputStream) {
         this.inputStream = inputStream;
+        separator = ";";
+    }
+
+    public CSVFile(InputStream inputStream, String separator) {
+        this.inputStream = inputStream;
+        this.separator = separator;
     }
 
     public List read() {
@@ -24,7 +31,7 @@ public class CSVFile {
         try {
             String csvLine;
             while ((csvLine = reader.readLine()) != null) {
-                String[] row = csvLine.split(";");
+                String[] row = csvLine.split(separator);
                 resultList.add(row);
             }
         } catch (IOException ex) {
