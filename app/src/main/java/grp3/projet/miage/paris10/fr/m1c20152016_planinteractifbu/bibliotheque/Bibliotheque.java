@@ -1,10 +1,8 @@
 package grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
 import java.util.NoSuchElementException;
-import java.util.Set;
 
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.cote.Etagere;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.cote.Index;
@@ -53,7 +51,7 @@ public class Bibliotheque {
     }
 
     public void buildAllDisciplinesCotesEtageresFromCSV(List<String[]> infosFromCSVFileCotes) {
-        for (int i = 0; i < infosFromCSVFileCotes.size(); i++) {
+        for (int i = 1; i < infosFromCSVFileCotes.size(); i++) {
             String[] line = infosFromCSVFileCotes.get(i);
 
             String nomSalle;
@@ -127,12 +125,12 @@ public class Bibliotheque {
              *          2- on l'ajoute à la racine de cote.
              */
             for (int j = 0; j < numEtageres.size(); j++) {
-                if(salle.hasEtagere(numEtageres.get(i))) {
-                    Etagere e = salle.getEtagere(numEtageres.get(i));
+                if(salle.hasEtagere(numEtageres.get(j))) {
+                    Etagere e = salle.getEtagere(numEtageres.get(j));
                     sousDiscipline.addEtagere(e);
                     racine.addEtagere(e);
                 } else {
-                    Etagere e = new Etagere(numEtageres.get(i));
+                    Etagere e = new Etagere(numEtageres.get(j));
                     salle.addEtagere(e);
                     sousDiscipline.addEtagere(e);
                     racine.addEtagere(e);

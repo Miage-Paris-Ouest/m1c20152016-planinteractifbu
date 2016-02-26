@@ -37,7 +37,7 @@ public class SalleContenantEtageres extends Salle {
         for(Discipline d : disciplines) {
             if(d.getNom().equals(nom)) return d;
         }
-        throw new NoSuchElementException("Cette salle ne contient aucun ouvrage traitant de cette discipline.");
+        throw new NoSuchElementException("La discipline \"" + nom + "\" ne fait pas partie de cette salle.");
     }
 
     public Set<Discipline> getDisciplines() {
@@ -59,7 +59,7 @@ public class SalleContenantEtageres extends Salle {
         for(SousDiscipline d : sousDisciplines) {
             if(d.getNom().equals(nom)) return d;
         }
-        throw new NoSuchElementException("Cette salle ne contient aucun ouvrage traitant de cette sous discipline.");
+        throw new NoSuchElementException("La sous-discipline \"" + nom + "\" ne fait pas partie de cette salle.");
     }
 
     public Set<SousDiscipline> getSousDisciplines() {
@@ -81,7 +81,7 @@ public class SalleContenantEtageres extends Salle {
         for(Etagere e : etageres) {
             if(e.getNum() == n) return e;
         }
-        throw new NoSuchElementException("Cette salle ne contient aucune etagere a ce numero.");
+        throw new NoSuchElementException("L'etagere " + n + " ne fait pas partie de cette salle.");
     }
 
     public Set<Etagere> getEtageres() {

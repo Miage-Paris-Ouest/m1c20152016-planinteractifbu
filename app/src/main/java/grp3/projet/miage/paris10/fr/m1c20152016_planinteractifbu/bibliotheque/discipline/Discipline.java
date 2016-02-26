@@ -44,7 +44,7 @@ public class Discipline implements Comparable {
         for(SousDiscipline d : sousDisciplines) {
             if(d.getNom().equals(nom)) return d;
         }
-        throw new NoSuchElementException("La sous-discipline specifiee ne fait pas partie de cette discipline.");
+        throw new NoSuchElementException("La sous-discipline \"" + nom + "\" ne fait pas partie de la discipline \"" + this.nom + "\".");
     }
 
     public Set<SousDiscipline> getSousDisciplines() {

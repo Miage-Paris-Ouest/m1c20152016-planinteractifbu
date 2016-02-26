@@ -23,10 +23,8 @@ public class PlanActivity extends Activity{
         bu.addEtage(new Etage(0));
         bu.addEtage(new Etage(1));
 
-        InputStream inputStream = getResources().openRawResource(R.raw.infos_salles);
-        CSVFile csvFile = new CSVFile(inputStream);
-
-        bu.buildAllSallesFromCSV(csvFile.read());
+        bu.buildAllSallesFromCSV(new CSVFile(getResources().openRawResource(R.raw.infos_salles)).read());
+        bu.buildAllDisciplinesCotesEtageresFromCSV(new CSVFile(getResources().openRawResource(R.raw.cotes), "_").read());
 
         setContentView(R.layout.plan_interactif);
 

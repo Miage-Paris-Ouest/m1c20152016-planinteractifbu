@@ -25,7 +25,7 @@ public class CSVFile {
         this.separator = separator;
     }
 
-    public List read() {
+    public List<String[]> read() {
         List<String[]> resultList = new ArrayList<>();
         BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
         try {
