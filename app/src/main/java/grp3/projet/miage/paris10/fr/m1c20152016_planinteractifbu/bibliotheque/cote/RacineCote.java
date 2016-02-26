@@ -25,48 +25,24 @@ public class RacineCote {
     public RacineCote(String descriptifCote){
         includes = new ArrayList<>();
         excludes = new ArrayList<>();
-        buildRacineFromString(descriptifCote);
     }
 
     public RacineCote(String descriptifCote, Set<Etagere> etageres) {
         includes = new ArrayList<>();
         excludes = new ArrayList<>();
         this.etageres = etageres;
-        buildRacineFromString(descriptifCote);
     }
 
-    public void buildRacineFromString(String descriptifCotes) {
-        boolean inclus = true;
+    public List<String> getIncludes() {
+        return includes;
+    }
 
-        String[] mots;
+    public List<String> getExcludes() {
+        return excludes;
+    }
 
-        mots = descriptifCotes.split(" ");
-        for (int i = 0; i < mots.length; i++) {
-            if (mots[i].endsWith(",")) {
-                mots[i] = mots[i].substring(0, mots[i].length() - 1);
-            }
-        }
-
-        for (int i = 0; i < mots.length; i++) {
-            if (mots[i].equals("sauf")) inclus = false;
-            else {
-                if (!mots[i].equals("à")) {
-                    if (inclus) includes.add("^" + mots[i] + ".*");
-                    else excludes.add("^" + mots[i]);
-                } else {
-                    List<String> dest;
-                    if (inclus) dest = includes;
-                    else dest = excludes;
-
-                    String debut = dest.get(dest.size() - 1);
-                    debut = debut.substring(0, debut.length() - 1) + "[" + debut.substring(debut.length() - 1);
-                    String lastChar = mots[i + 1].substring(mots[i + 1].length() - 1);
-                    dest.add(debut + "-" + lastChar + "]" + ".*");
-                    dest.remove(dest.get(dest.size() - 2));
-                    i++;
-                }
-            }
-        }
+    public void addEtagere(Etagere etagere) {
+        etageres.add(etagere);
     }
 
     public Set<Etagere> getEtageres() {
