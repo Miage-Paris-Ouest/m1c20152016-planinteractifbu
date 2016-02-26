@@ -52,7 +52,7 @@ public class Bibliotheque {
         }
     }
 
-    public void buildAllDisciplinesCotesEtageres(List<String[]> infosFromCSVFileCotes) {
+    public void buildAllDisciplinesCotesEtageresFromCSV(List<String[]> infosFromCSVFileCotes) {
         for (int i = 0; i < infosFromCSVFileCotes.size(); i++) {
             String[] line = infosFromCSVFileCotes.get(i);
 
