@@ -3,20 +3,22 @@ package grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.s
 import java.util.HashSet;
 import java.util.NoSuchElementException;
 import java.util.Set;
+import java.util.SortedSet;
+import java.util.TreeSet;
 
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.cote.Etagere;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.discipline.Discipline;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.discipline.SousDiscipline;
 
 public class SalleContenantEtageres extends Salle {
-    private Set<Discipline> disciplines;
-    private Set<SousDiscipline> sousDisciplines;
+    private SortedSet<Discipline> disciplines;
+    private SortedSet<SousDiscipline> sousDisciplines;
     private Set<Etagere> etageres;
 
     public SalleContenantEtageres(String nom, int x, int y, int l, int h, int color, float largeurContour, int couleurContour, boolean afficherNom) {
         super(nom, x, y, l, h, color, largeurContour, couleurContour, afficherNom);
-        disciplines = new HashSet<>();
-        sousDisciplines = new HashSet<>();
+        disciplines = new TreeSet<>();
+        sousDisciplines = new TreeSet<>();
         etageres = new HashSet<>();
     }
 

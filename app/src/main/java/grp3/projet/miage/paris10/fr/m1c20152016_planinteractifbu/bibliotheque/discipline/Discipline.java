@@ -1,5 +1,7 @@
 package grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.discipline;
 
+import android.support.annotation.NonNull;
+
 import java.util.HashSet;
 import java.util.NoSuchElementException;
 import java.util.Set;
@@ -8,13 +10,19 @@ import java.util.TreeSet;
 
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.cote.Etagere;
 
-public class Discipline {
+public class Discipline implements Comparable {
     private String nom;
     private SortedSet<SousDiscipline> sousDisciplines;
 
     public Discipline(String nom) {
         this.nom = nom;
         sousDisciplines = new TreeSet<>();
+    }
+
+    @Override
+    public int compareTo(@NonNull Object another) {
+        Discipline d = (Discipline) another;
+        return nom.compareTo(d.getNom());
     }
 
     public String getNom() {
@@ -52,4 +60,6 @@ public class Discipline {
         }
         return etageres;
     }
+
+
 }

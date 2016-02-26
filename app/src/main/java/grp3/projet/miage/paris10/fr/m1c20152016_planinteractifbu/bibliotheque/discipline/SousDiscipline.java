@@ -22,6 +22,12 @@ public class SousDiscipline implements Comparable {
         this.etageres = etageres;
     }
 
+    @Override
+    public int compareTo(@NonNull Object another) {
+        SousDiscipline s = (SousDiscipline) another;
+        return nom.compareTo(s.getNom());
+    }
+
     public String getNom() {
         return nom;
     }
@@ -49,11 +55,5 @@ public class SousDiscipline implements Comparable {
 
     public void setEtageres(Set<Etagere> etageres) {
         this.etageres = etageres;
-    }
-
-    @Override
-    public int compareTo(@NonNull Object another) {
-        SousDiscipline s = (SousDiscipline) another;
-        return nom.compareTo(s.getNom());
     }
 }
