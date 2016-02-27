@@ -12,6 +12,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ListView;
 
+import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.menucote.SaisieCoteActivity;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.menudisciplines.DisciplinesListActivity;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.plan.PlanActivity;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.plan.PlanImage;
@@ -84,7 +85,8 @@ public class MainActivity extends AppCompatActivity
            Intent it_plan_inter = new Intent(MainActivity.this, PlanActivity.class);
            startActivity(it_plan_inter);
        } else if (id == R.id.nav_cote){
-
+           Intent it_saisie_cote = new Intent(MainActivity.this, SaisieCoteActivity.class);
+           startActivity(it_saisie_cote);
        } else if (id == R.id.nav_dis) {
            Intent it_fichier_csv = new Intent(MainActivity.this, DisciplinesListActivity.class);
            startActivity(it_fichier_csv);
