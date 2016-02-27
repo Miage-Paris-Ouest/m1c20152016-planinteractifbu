@@ -19,15 +19,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".leplan.PlanActivity"
+            android:name=".plan.PlanActivity"
             android:label="@string/layout_plan_interactif"
             android:theme="@style/AppTheme">
         </activity>
-        <activity android:name=".leplan.PlanImage"
+        <activity android:name=".plan.PlanImage"
             android:label="@string/layout_plan_image"
             android:theme="@style/AppTheme">
         </activity>
-        <activity android:name=".disciplinesview.DisciplinesListActivity"
+        <activity android:name=".menudisciplines.DisciplinesListActivity"
         android:theme="@style/AppTheme">
     </activity>
     </application>
