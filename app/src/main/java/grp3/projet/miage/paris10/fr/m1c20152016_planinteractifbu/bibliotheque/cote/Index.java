@@ -1,6 +1,7 @@
 package grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.cote;
 
 import java.util.HashSet;
+import java.util.NoSuchElementException;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -23,5 +24,18 @@ public class Index {
         racines.add(racine);
     }
 
+    public Set<Discipline> getDisciplines() {
+        return disciplines;
+    }
 
+    public Set<RacineCote> getRacines() {
+        return racines;
+    }
+
+    public Discipline getDiscipline(String nom) {
+        for(Discipline d : disciplines) {
+            if(d.getNom().equals(nom)) return d;
+        }
+        throw new NoSuchElementException("La discipline \"" + nom + "\" ne fait pas partie de l'index.");
+    }
 }
