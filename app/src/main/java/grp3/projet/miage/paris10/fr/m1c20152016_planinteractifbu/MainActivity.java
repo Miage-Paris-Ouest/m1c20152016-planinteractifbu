@@ -2,7 +2,6 @@ package grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Parcelable;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -13,12 +12,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ListView;
 
-import java.io.InputStream;
-import java.util.List;
-
-import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.csvreader.AfficherCSV;
-import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.csvreader.CSVFile;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.csvreader.ItemArrayAdapter;
+import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.disciplinesview.DisciplinesListActivity;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.leplan.PlanActivity;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.leplan.PlanImage;
 
@@ -91,7 +86,7 @@ public class MainActivity extends AppCompatActivity
            Intent it_plan_inter = new Intent(MainActivity.this, PlanActivity.class);
            startActivity(it_plan_inter);
        } else if (id == R.id.nav_cote){
-           Intent it_fichier_csv = new Intent(MainActivity.this, AfficherCSV.class);
+           Intent it_fichier_csv = new Intent(MainActivity.this, DisciplinesListActivity.class);
            startActivity(it_fichier_csv);
        } else if (id == R.id.nav_dis) {
 
