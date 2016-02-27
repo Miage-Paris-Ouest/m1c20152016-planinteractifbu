@@ -17,13 +17,14 @@ public class PlanActivity extends Activity {
     Button boutonEtage;
     Bibliotheque bu;
     int numEtageRepresente;
+    PlanView plan;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.plan_interactif);
 
-        final PlanView plan = (PlanView) findViewById(R.id.plan_view);
+        plan = (PlanView) findViewById(R.id.plan_view);
         boutonEtage = (Button) findViewById(R.id.buttonChangementEtage);
         bu = new Bibliotheque(getResources());
         plan.setBu(bu);
