@@ -29,7 +29,11 @@
         </activity>
         <activity android:name=".menudisciplines.DisciplinesListActivity"
         android:theme="@style/AppTheme">
-    </activity>
+        </activity>
+        <activity android:name=".menucote.SaisieCoteActivity"
+            android:theme="@style/AppTheme">
+
+        </activity>
     </application>
 
 </manifest>
