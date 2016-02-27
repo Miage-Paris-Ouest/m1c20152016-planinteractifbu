@@ -1,22 +1,19 @@
-package grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.leplan;
+package grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.plan;
 
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Rect;
 import android.util.AttributeSet;
-import android.view.View;
-
-import java.util.ArrayList;
-import java.util.List;
+import android.widget.HorizontalScrollView;
 
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.Bibliotheque;
-import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.salle.Etage;
+import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.cote.Etagere;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.salle.Salle;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.salle.SalleContenantEtageres;
-import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.leplan.representations.Rectangle;
+import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.representations.Rectangle;
 
-public class PlanView extends View {
+public class PlanView extends HorizontalScrollView {
     /**
      * Cette classe permettra de DESSINER un plan intéractif.
      **/
@@ -38,6 +35,7 @@ public class PlanView extends View {
         super(context, attrs);
         etageRepresente = 0;
     }
+
     /**
      * Idem constructeur nécessaire à implémenter pour avoir le droit de créer le layout utilisant une
      * PlanView.
@@ -78,9 +76,17 @@ public class PlanView extends View {
             drawRectangleWithBorder(canvas, r.getBounds(), r.getBorderWidth(), r.getPaint().getColor(), r.getBorderColor());
         }
 
-        for(SalleContenantEtageres s : bu.getEtage(etageRepresente).getSallesEtageres()) {
+        for (SalleContenantEtageres s : bu.getEtage(etageRepresente).getSallesEtageres()) {
             Rectangle r = s.getRepresentation();
             drawRectangleWithBorder(canvas, r.getBounds(), r.getBorderWidth(), r.getPaint().getColor(), r.getBorderColor());
+        }
+
+        for (SalleContenantEtageres s : bu.getEtage(etageRepresente).getSallesEtageres()) {
+            for (Etagere e : s.getEtageres()) {
+                Rectangle r = e.getRepresentation();
+                if (r != null)
+                    drawRectangleWithBorder(canvas, r.getBounds(), r.getBorderWidth(), r.getPaint().getColor(), r.getBorderColor());
+            }
         }
 
         try {

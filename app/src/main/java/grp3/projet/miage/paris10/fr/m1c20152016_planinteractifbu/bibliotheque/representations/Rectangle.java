@@ -1,4 +1,4 @@
-package grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.leplan.representations;
+package grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.representations;
 
 import android.graphics.Paint;
 import android.graphics.Rect;
@@ -43,5 +43,9 @@ public class Rectangle {
 
     public void setColor(int color) {
         paint.setColor(color);
+    }
+
+    public void setCouleurContour(int couleurContour) {
+        this.couleurContour = couleurContour;
     }
 }

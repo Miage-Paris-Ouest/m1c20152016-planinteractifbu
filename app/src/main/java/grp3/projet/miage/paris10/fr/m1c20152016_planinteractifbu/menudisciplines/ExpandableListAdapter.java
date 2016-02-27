@@ -1,4 +1,4 @@
-package grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.disciplinesview;
+package grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.menudisciplines;
 
 import android.content.Context;
 import android.graphics.Typeface;
