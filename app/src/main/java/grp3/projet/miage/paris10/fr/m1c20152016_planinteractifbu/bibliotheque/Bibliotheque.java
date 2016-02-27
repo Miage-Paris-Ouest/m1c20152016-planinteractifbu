@@ -55,6 +55,18 @@ public class Bibliotheque {
         throw new NoSuchElementException("Aucun étage ne possede de salle \"" + nomSalle + "\"");
     }
 
+    public Etage getEtagesWithDiscipline(String nomDiscipline) {
+        if(etages.get(0).hasDiscipline(nomDiscipline)) return etages.get(0);
+        if(etages.get(1).hasDiscipline(nomDiscipline)) return etages.get(1);
+        throw new NoSuchElementException("La discipline \"" + nomDiscipline + "\" n'est presente dans aucun etage.");
+    }
+
+    public Etage getEtagesWithSousDiscipline(String nomSousDiscipline) {
+        if(etages.get(0).hasSousDiscipline(nomSousDiscipline)) return etages.get(0);
+        if(etages.get(1).hasSousDiscipline(nomSousDiscipline)) return etages.get(1);
+        throw new NoSuchElementException("La discipline \"" + nomSousDiscipline + "\" n'est presente dans aucun etage.");
+    }
+
     public Index getIndex() {
         return index;
     }

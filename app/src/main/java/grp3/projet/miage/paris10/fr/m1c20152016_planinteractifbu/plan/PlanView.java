@@ -5,7 +5,7 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Rect;
 import android.util.AttributeSet;
-import android.widget.HorizontalScrollView;
+import android.view.View;
 
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.Bibliotheque;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.cote.Etagere;
@@ -13,7 +13,7 @@ import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.sa
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.salle.SalleContenantEtageres;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.representations.Rectangle;
 
-public class PlanView extends HorizontalScrollView {
+public class PlanView extends View {
     /**
      * Cette classe permettra de DESSINER un plan intéractif.
      **/
@@ -43,6 +43,10 @@ public class PlanView extends HorizontalScrollView {
     public PlanView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         etageRepresente = 0;
+    }
+
+    public int getEtageRepresente() {
+        return etageRepresente;
     }
 
     public void setBu(Bibliotheque bu) {
@@ -88,13 +92,12 @@ public class PlanView extends HorizontalScrollView {
                     drawRectangleWithBorder(canvas, r.getBounds(), r.getBorderWidth(), r.getPaint().getColor(), r.getBorderColor());
             }
         }
-
+/*
         try {
             Thread.sleep(DELAI_RAFRAICHISSEMENT_VUE);
         } catch (InterruptedException e) {
         }
-
-        invalidate();
+        invalidate();*/
     }
 
 

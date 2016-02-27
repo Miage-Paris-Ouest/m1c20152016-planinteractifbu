@@ -33,7 +33,6 @@ public class Etagere {
     }
 
     public void faireRessortir() {
-        representation.setColor(Color.rgb(255, 127, 39));
-        //representation.setCouleurContour(Color.rgb(255, 127, 39));
+        if (representation != null) representation.setColor(Color.rgb(255, 127, 39));
     }
 }
