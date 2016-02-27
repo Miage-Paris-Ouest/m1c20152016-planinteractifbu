@@ -1,9 +1,13 @@
 package grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque;
 
+import android.content.res.Resources;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
+import java.util.Set;
 
+import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.R;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.cote.Etagere;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.cote.Index;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.cote.RacineCote;
@@ -12,7 +16,9 @@ import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.di
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.salle.Etage;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.salle.SalleBuilder;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.salle.SalleContenantEtageres;
+import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.csvreader.CSVFile;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.csvreader.CSVReadingUtility;
+import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.representations.Rectangle;
 
 public class Bibliotheque {
     private List<Etage> etages;
@@ -21,6 +27,18 @@ public class Bibliotheque {
     public Bibliotheque() {
         etages = new ArrayList<>();
         index = new Index();
+    }
+
+    public Bibliotheque(Resources resources) {
+        etages = new ArrayList<>();
+        index = new Index();
+
+        addEtage(new Etage(0));
+        addEtage(new Etage(1));
+
+        buildAllSallesFromCSV(new CSVFile(resources.openRawResource(R.raw.infos_salles)).read());
+        buildAllDisciplinesCotesEtageresFromCSV(new CSVFile(resources.openRawResource(R.raw.cotes), "_").read());
+        setRepresentationsEtageresFromCSV(new CSVFile(resources.openRawResource(R.raw.plan_etageres), ",").read());
     }
 
     public void addEtage(Etage etage) {
@@ -32,9 +50,30 @@ public class Bibliotheque {
     }
 
     public Etage getEtageWithSalle(String nomSalle) {
-        if(etages.get(0).hasSalle(nomSalle)) return etages.get(0);
-        if(etages.get(1).hasSalle(nomSalle)) return etages.get(1);
+        if (etages.get(0).hasSalle(nomSalle)) return etages.get(0);
+        if (etages.get(1).hasSalle(nomSalle)) return etages.get(1);
         throw new NoSuchElementException("Aucun étage ne possede de salle \"" + nomSalle + "\"");
+    }
+
+    public Index getIndex() {
+        return index;
+    }
+
+    public void faireRessortirEtageres(Set<Etagere> etageres) {
+        for(Etagere e : etageres) {
+            e.faireRessortir();
+        }
+    }
+
+    public void faireRessortirEtageresSousDiscipline(String nomSousDiscipline) {
+        for(Discipline d: index.getDisciplines()) {
+            if(d.hasSousDiscipline(nomSousDiscipline)) {
+                for(Etagere e : d.getSousDiscipline(nomSousDiscipline).getEtageres()) {
+                    e.faireRessortir();
+                }
+                return;
+            }
+        }
     }
 
     public void buildAllSallesFromCSV(List<String[]> infosSallesFromCSV) {
@@ -82,7 +121,7 @@ public class Bibliotheque {
              *      2- on l'ajoute à la salle qui lui correspond;
              *      3- on l'ajoute à l'index.
              */
-            if(salle.hasDiscipline(nomDiscipline)) discipline = salle.getDiscipline(nomDiscipline);
+            if (salle.hasDiscipline(nomDiscipline)) discipline = salle.getDiscipline(nomDiscipline);
             else {
                 discipline = new Discipline(nomDiscipline);
                 salle.addDiscipline(discipline);
@@ -125,7 +164,7 @@ public class Bibliotheque {
              *          2- on l'ajoute à la racine de cote.
              */
             for (int j = 0; j < numEtageres.size(); j++) {
-                if(salle.hasEtagere(numEtageres.get(j))) {
+                if (salle.hasEtagere(numEtageres.get(j))) {
                     Etagere e = salle.getEtagere(numEtageres.get(j));
                     sousDiscipline.addEtagere(e);
                     racine.addEtagere(e);
@@ -136,6 +175,31 @@ public class Bibliotheque {
                     racine.addEtagere(e);
                 }
             }
+        }
+    }
+
+    public void setRepresentationsEtageresFromCSV(List<String[]> infosRepresentationsEtageresFromCSVFile) {
+        for (int i = 1; i < infosRepresentationsEtageresFromCSVFile.size(); i++) {
+            String[] line = infosRepresentationsEtageresFromCSVFile.get(i);
+            String nomSalle = line[0];
+            int numEtagere = Integer.parseInt(line[1]);
+            int x = Integer.parseInt(line[2]);
+            int y = Integer.parseInt(line[3]);
+            int l = Integer.parseInt(line[4]);
+            int h = Integer.parseInt(line[5]);
+
+            SalleContenantEtageres salle;
+            Etagere etagere;
+
+            salle = getEtageWithSalle(nomSalle).getSalleContenantEtageres(nomSalle);
+            if (salle.hasEtagere(numEtagere)) {
+                etagere = salle.getEtagere(numEtagere);
+            } else {
+                etagere = new Etagere(numEtagere);
+                salle.addEtagere(etagere);
+            }
+
+            etagere.setRepresentation(new Rectangle(x, y, l, h, Etagere.COULEUR, Etagere.LARGEUR_CONTOUR, Etagere.COULEUR_CONTOUR));
         }
     }
 }
