@@ -8,4 +8,6 @@
     <string name="layout_plan_image">layout plan image</string>
     <string name="planimage">plan image</string>
     <string name="affiche_csv">Lecture du CSV</string>
+    <string name="hint_saisie_cote">Saisissez une cote</string>
+    <string name="button_valider_cote">Rechercher</string>
 </resources>
