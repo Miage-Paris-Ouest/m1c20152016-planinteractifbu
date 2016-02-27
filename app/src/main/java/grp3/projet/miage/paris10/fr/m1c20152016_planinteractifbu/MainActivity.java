@@ -12,16 +12,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ListView;
 
-import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.csvreader.ItemArrayAdapter;
-import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.disciplinesview.DisciplinesListActivity;
-import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.leplan.PlanActivity;
-import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.leplan.PlanImage;
+import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.menudisciplines.DisciplinesListActivity;
+import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.plan.PlanActivity;
+import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.plan.PlanImage;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     private ListView listView;
-    private ItemArrayAdapter itemArrayAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -86,10 +84,10 @@ public class MainActivity extends AppCompatActivity
            Intent it_plan_inter = new Intent(MainActivity.this, PlanActivity.class);
            startActivity(it_plan_inter);
        } else if (id == R.id.nav_cote){
+
+       } else if (id == R.id.nav_dis) {
            Intent it_fichier_csv = new Intent(MainActivity.this, DisciplinesListActivity.class);
            startActivity(it_fichier_csv);
-       } else if (id == R.id.nav_dis) {
-
        }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
