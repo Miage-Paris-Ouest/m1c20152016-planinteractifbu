@@ -25,11 +25,11 @@ notre référent afin qu’il puisse la maintenir.
 </p>
 
 Regroupement des documents à voir :
-- Le prototype de départ : https://github.com/Miage-Paris-Ouest/m1c20152016-planinteractifbu/blob/master/Documents/Prototypes.md
-- La vidéo du prototype de départ : https://github.com/Miage-Paris-Ouest/m1c20152016-planinteractifbu/tree/master/Documents/Prototype
-- Les contraintes de l'application : https://github.com/Miage-Paris-Ouest/m1c20152016-planinteractifbu/blob/master/Documents/Contraintes
-- Les spécificités techniques : https://github.com/Miage-Paris-Ouest/m1c20152016-planinteractifbu/blob/master/Documents/Tech.md
-- La présentation de fin de projet : https://github.com/Miage-Paris-Ouest/m1c20152016-planinteractifbu/blob/master/Documents/Présentation.pdf
+- <a href="https://github.com/Miage-Paris-Ouest/m1c20152016-planinteractifbu/blob/master/Documents/Prototypes.md">Le prototype de départ</a> 
+- <a href="https://github.com/Miage-Paris-Ouest/m1c20152016-planinteractifbu/tree/master/Documents/Prototype">La vidéo du prototype de départ</a>
+- <a href="https://github.com/Miage-Paris-Ouest/m1c20152016-planinteractifbu/blob/master/Documents/Contraintes">Les contraintes de l'application</a>
+- <a href="https://github.com/Miage-Paris-Ouest/m1c20152016-planinteractifbu/blob/master/Documents/Tech.md">Les spécificités techniques</a>
+- <a href="https://github.com/Miage-Paris-Ouest/m1c20152016-planinteractifbu/blob/master/Documents/Présentation.pdf">La présentation de fin de projet</a>
 - Document Utilisateur :<A HREF="https://github.com/Miage-Paris-Ouest/m1c20152016-planinteractifbu/blob/master/Documents/Guide%20Utilisateur/Doc_util.docx?raw=true">Télécharger le manuel utilisateur</A> 
 - Video de demonstration :<A HREF="https://github.com/Miage-Paris-Ouest/m1c20152016-planinteractifbu/blob/master/Documents/Guide%20Utilisateur/PlanInteractifBU.avi?raw=true">Télécharger la vidéo de démonstration</A>
 - APK permettant le test de l'application aboutie: <A HREF="https://github.com/Miage-Paris-Ouest/m1c20152016-planinteractifbu/blob/master/Documents/PlanInteractifBU.apk?raw=true">Télécharger l'APK</A>
