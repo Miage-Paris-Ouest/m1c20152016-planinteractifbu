@@ -30,6 +30,8 @@ Regroupement des documents à voir :
 - Les contraintes de l'application : https://github.com/Miage-Paris-Ouest/m1c20152016-planinteractifbu/blob/master/Documents/Contraintes
 - Les spécificités techniques : https://github.com/Miage-Paris-Ouest/m1c20152016-planinteractifbu/blob/master/Documents/Tech.md
 - La présentation de fin de projet : https://github.com/Miage-Paris-Ouest/m1c20152016-planinteractifbu/blob/master/Documents/Présentation.pdf
+- Document Utilisateur : 
+- APK permettant le test de l'application aboutie: <A HREF="https://github.com/Miage-Paris-Ouest/m1c20152016-planinteractifbu/blob/master/Documents/PlanInteractifBU.apk?raw=true">Télécharger l'APK</A>
 <p>
 
 </p>
