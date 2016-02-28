@@ -59,9 +59,12 @@ public class DisciplinesListActivity extends Activity {
         expListView.setOnItemLongClickListener(new ExpandableListView.OnItemLongClickListener() {
             @Override
             public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intentPlanInteractif = new Intent(DisciplinesListActivity.this, PlanActivity.class);
-                intentPlanInteractif.putExtra("nomDiscipline", listDiscipline.get(position));
-                startActivity(intentPlanInteractif);
+                if (position < listDiscipline.size()) {
+                    Intent intentPlanInteractif = new Intent(DisciplinesListActivity.this, PlanActivity.class);
+
+                    intentPlanInteractif.putExtra("nomDiscipline", listDiscipline.get(position));
+                    startActivity(intentPlanInteractif);
+                }
                 return false;
             }
         });

@@ -215,8 +215,12 @@ public class Bibliotheque {
 
             SalleContenantEtageres salle;
             Etagere etagere;
+            int xSalle;
+            int ySalle;
 
             salle = getEtageWithSalle(nomSalle).getSalleContenantEtageres(nomSalle);
+            xSalle = salle.getRepresentation().getBounds().left;
+            ySalle = salle.getRepresentation().getBounds().top;
             if (salle.hasEtagere(numEtagere)) {
                 etagere = salle.getEtagere(numEtagere);
             } else {
@@ -224,7 +228,7 @@ public class Bibliotheque {
                 salle.addEtagere(etagere);
             }
 
-            etagere.setRepresentation(new Rectangle(x, y, l, h, Etagere.COULEUR, Etagere.LARGEUR_CONTOUR, Etagere.COULEUR_CONTOUR));
+            etagere.setRepresentation(new Rectangle(xSalle + x, ySalle + y, l, h, Etagere.COULEUR, Etagere.LARGEUR_CONTOUR, Etagere.COULEUR_CONTOUR));
         }
     }
 }
