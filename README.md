@@ -67,3 +67,14 @@ Nous allons devoir implémenter différentes fonctionnalités :
          </ul>
     </ul>
 </p>
+
+<p>
+Comme ressources, nous avons utilisé :<ul>
+<li>Android Studio</li>
+<li>GitHub (et GitHub Desktop)</li>
+<li>Emulateur Android</li>
+</ul>
+</p>
+
+
+<p>Afin de réaliser au mieux ce projet, nous avons utilisé pusieurs branches (de notre branche master) sous GitHub</p>
