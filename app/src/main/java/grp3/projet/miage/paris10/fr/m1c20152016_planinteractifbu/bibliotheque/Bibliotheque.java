@@ -88,6 +88,19 @@ public class Bibliotheque {
         }
     }
 
+    public boolean faireRessortirEtageresWithCote(String cote) {
+        boolean matched = false;
+        for(RacineCote r : index.getRacines()) {
+            if(r.matches(cote)) {
+                for(Etagere e : r.getEtageres()) {
+                    e.faireRessortir();
+                }
+                matched = true;
+            }
+        }
+        return matched;
+    }
+
     public void buildAllSallesFromCSV(List<String[]> infosSallesFromCSV) {
         for (int i = 0; i < infosSallesFromCSV.size(); i++) {
             String[] line = infosSallesFromCSV.get(i);

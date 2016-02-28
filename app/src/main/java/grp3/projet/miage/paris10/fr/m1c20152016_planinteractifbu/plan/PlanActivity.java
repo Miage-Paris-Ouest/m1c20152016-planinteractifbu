@@ -43,6 +43,12 @@ public class PlanActivity extends Activity {
                 plan.setEtageRepresente(bu.getEtagesWithDiscipline(extras.getString("nomDiscipline")).getNum());
                 Toast.makeText(getApplicationContext(), extras.getString("nomDiscipline"), Toast.LENGTH_SHORT).show();
                 bu.faireRessortirEtageres(bu.getIndex().getDiscipline(extras.getString("nomDiscipline")).getEtageres());
+            } else if(extras.containsKey("coteSaisie")) {
+                if(bu.faireRessortirEtageresWithCote(extras.getString("coteSaisie"))) {
+                    Toast.makeText(getApplicationContext(), "La recherche a retourné au moins une étagère.", Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(getApplicationContext(), "La recherche n'a retourné aucun résultat.", Toast.LENGTH_SHORT).show();
+                }
             }
             numEtageRepresente = plan.getEtageRepresente();
             setBoutonEtageTexte(numEtageRepresente);
