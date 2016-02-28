@@ -24,7 +24,7 @@ public class CSVReadingUtility {
             else {
                 if (!mots[i].equals("à")) {
                     if (inclus) r.getIncludes().add("^" + mots[i] + ".*");
-                    else r.getExcludes().add("^" + mots[i]);
+                    else r.getExcludes().add("^" + mots[i] + ".*");
                 } else {
                     List<String> dest;
                     if (inclus) dest = r.getIncludes();
