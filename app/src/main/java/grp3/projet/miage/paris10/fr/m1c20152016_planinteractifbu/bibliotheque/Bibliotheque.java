@@ -13,12 +13,12 @@ import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.co
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.cote.RacineCote;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.discipline.Discipline;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.discipline.SousDiscipline;
+import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.representations.Rectangle;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.salle.Etage;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.salle.SalleBuilder;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.salle.SalleContenantEtageres;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.csvreader.CSVFile;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.csvreader.CSVReadingUtility;
-import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.representations.Rectangle;
 
 public class Bibliotheque {
     private List<Etage> etages;

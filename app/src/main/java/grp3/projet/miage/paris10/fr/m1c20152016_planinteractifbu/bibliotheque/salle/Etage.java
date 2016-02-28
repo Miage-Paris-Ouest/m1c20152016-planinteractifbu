@@ -4,8 +4,6 @@ import java.util.HashSet;
 import java.util.NoSuchElementException;
 import java.util.Set;
 
-import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.bibliotheque.discipline.Discipline;
-
 public class Etage {
     private int num;
     private Set<Salle> salles;
