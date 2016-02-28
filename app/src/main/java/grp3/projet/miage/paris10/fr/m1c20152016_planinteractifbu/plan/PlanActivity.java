@@ -31,7 +31,7 @@ public class PlanActivity extends Activity {
         numEtageRepresente = plan.getEtageRepresente();
         setBoutonEtageTexte(numEtageRepresente);
 
-        plan.setBackgroundColor(Color.WHITE);
+        plan.setBackgroundColor(Color.rgb(226, 226, 226));
 
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
