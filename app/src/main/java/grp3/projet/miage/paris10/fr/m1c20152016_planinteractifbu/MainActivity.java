@@ -11,6 +11,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.menucote.SaisieCoteActivity;
 import grp3.projet.miage.paris10.fr.m1c20152016_planinteractifbu.menudisciplines.DisciplinesListActivity;
@@ -66,6 +67,7 @@ public class MainActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Toast.makeText(getApplicationContext(),"Perspective d'évolution !!",Toast.LENGTH_SHORT).show();
             return true;
         }
 
