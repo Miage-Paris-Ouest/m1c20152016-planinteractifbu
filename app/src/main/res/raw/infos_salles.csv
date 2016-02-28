@@ -1,18 +1,18 @@
-0;1;Droit et Science Politique;70;646;200;554;-1;1
-0;0;Pret / Retour;70;396;200;254;-1;0
-0;0;Escalier1;130;316;75;84;-1;0
-0;1;Videotheque;20;120;100;200;-1;1
-0;1;Sciences Economiques;116;120;438;200;-1;1
-0;0;Accueil;550;120;204;200;-1;0
-0;0;Escalier2;750;180;80;80;-1;0
-0;1;La BUlle;826;80;224;420;-1;1
-0;0;Entree;590;316;70;168;-1;0
-0;0;Hall;476;480;274;290;-1;0
-0;0;Sortie;266;550;214;70;-1;0
-1;1;Langues et Littératures;70;646;200;554;-1;1
-1;0;Revues de Lettres;70;396;200;254;-1;0
-1;0;Escalier3;130;316;74;84;-1;0
-1;1;Sciences Humaines;10;120;564;200;-1;1
-1;0;Secretariat / Direction;570;120;204;200;-1;0
-1;0;Escalier4;770;180;80;80;-1;0
-1;1;Sciences Sociales;845;80;224;420;-1;1
+0;1;Droit et Science Politique;120;829;235;700;-1;1
+0;0;Pret / Retour;120;442;235;391;-1;0
+0;0;Escalier1;190;346;90;100;-1;0
+0;1;Videotheque;10;115;170;235;-1;1
+0;1;Sciences Economiques;168;115;832;235;-1;1
+0;0;Accueil;997;115;330;235;-1;0
+0;0;Escalier2;1323;185;100;90;-1;0
+0;1;La BUlle;1419;50;330;521;-1;1
+0;0;Entree;1070;346;80;258;-1;0
+0;0;Hall;796;600;500;500;-1;0
+0;0;Sortie;351;700;449;80;-1;0
+1;1;Langues et Littératures;120;829;235;700;-1;1
+1;0;Revues de Lettres;120;442;235;391;-1;0
+1;0;Escalier3;190;346;90;100;-1;0
+1;1;Sciences Humaines;10;115;991;235;-1;1
+1;0;Secretariat / Direction;997;115;330;235;-1;0
+1;0;Escalier4;1323;185;100;90;-1;0
+1;1;Sciences Sociales;1419;50;330;521;-1;1
